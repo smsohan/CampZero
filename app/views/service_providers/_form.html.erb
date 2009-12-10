@@ -1,0 +1,32 @@
+<% form_for @service_provider do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </p>
+  <p>
+    <%= f.label :fax %><br />
+    <%= f.text_field :fax %>
+  </p>
+  <p>
+    <%= f.label :mobile %><br />
+    <%= f.text_field :mobile %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :service_provider_category_id %><br />
+    <%= f.collection_select :service_provider_category_id, ServiceProviderCategory.all, :id, :name, :include_blank => true %>
+  </p>
+
+  <%= render :partial => 'services/form', :locals => {:service_provider_form => f} %>
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>
+

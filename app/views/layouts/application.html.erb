@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title><%= h(yield(:title) || "Untitled") %></title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="header">
+        <%= link_to 'New service provider', new_service_provider_path %>
+        <%= link_to 'Service providers', service_providers_path %>
+        <%= link_to 'Services', services_path %>
+      </div>
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <%- end -%>
+
+      <%- if show_title? -%>
+        <h1><%=h yield(:title) %></h1>
+      <%- end -%>
+
+      <%= yield %>
+    </div>
+    <%= yield(:tail) %>
+  </body>
+</html>

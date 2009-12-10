@@ -1,0 +1,11 @@
+one:
+  service_category_id: 1
+  service_provider_id: 1
+  service_description: MyString
+  type: MyString
+
+two:
+  service_category_id: 1
+  service_provider_id: 1
+  service_description: MyString
+  type: MyString

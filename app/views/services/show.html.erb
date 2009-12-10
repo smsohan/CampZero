@@ -1,0 +1,24 @@
+<% title "Service" %>
+
+<p>
+  <strong>Service Category:</strong>
+  <%=h @service.service_category.name if @service.service_category %>
+</p>
+<p>
+  <strong>Service Provider:</strong>
+  <%=h @service.service_provider.name if @service.service_provider%>
+</p>
+<p>
+  <strong>Service Description:</strong>
+  <%= @service.service_description %>
+</p>
+
+<% @service.attached_files.each do |attached_file| %>
+  <%= link_to image_tag(attached_file.file.url(:medium)), attached_file.file.url(:original) %>
+<%end%>
+
+<p>
+  <%= link_to "Edit", edit_service_path(@service) %> |
+  <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", services_path %>
+</p>

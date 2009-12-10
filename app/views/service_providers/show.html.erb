@@ -1,0 +1,32 @@
+<% title "Service Provider" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @service_provider.name %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%=h @service_provider.phone %>
+</p>
+<p>
+  <strong>Fax:</strong>
+  <%=h @service_provider.fax %>
+</p>
+<p>
+  <strong>Mobile:</strong>
+  <%=h @service_provider.mobile %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%=h @service_provider.email %>
+</p>
+<p>
+  <strong>Service Provider Category:</strong>
+  <%=h @service_provider.service_provider_category.name if @service_provider.service_provider_category%>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_service_provider_path(@service_provider) %> |
+  <%= link_to "Destroy", @service_provider, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", service_providers_path %>
+</p>

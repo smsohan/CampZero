@@ -1,0 +1,15 @@
+<% form_for @attached_file, :html => {:multipart => true} do |f| %>
+  <%= f.error_messages %>
+  <%= f.hidden_field :service_id %>
+  <p>
+    <%= f.label :caption %><br />
+    <%= f.text_field :caption %>
+  </p>
+  <p>
+    <%= f.label :file %><br />
+    <%= f.file_field :file %>
+  </p>
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>
+

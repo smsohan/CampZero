@@ -1,0 +1,33 @@
+<% title "Edit Service" %>
+<% content_for :head do %>
+  <%= javascript_include_tag 'tiny_mce/tiny_mce.js' %>
+<%end%>
+
+<% form_for @service do |f| %>
+
+  <p>
+    <%= f.label :service_category_id %><br />
+    <%= f.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name, @service.service_category_id), :include_blank => true %>
+  </p>
+  <p>
+    <%= f.label :service_description %><br />
+    <%= f.text_area :service_description, :style => "width : 700; rows : 10" %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>
+
+<% @service.attached_files.each do |attached_file| %>
+  <%= image_tag(attached_file.file.url) %>
+  <%= link_to 'Remove', attached_file_path(attached_file), :confirm => 'Are you sure?', :method => :delete%>
+<%end%>
+
+
+<p>
+  <%= link_to "Upload files", new_service_attached_file_path(@service) %> |
+  <%= link_to "Show", @service %> |
+  <%= link_to "View All", services_path %>
+</p>
+<% content_for :tail do %>
+  <%= javascript_include_tag 'tiny_mce/init.js' %>
+<%end%>
+
