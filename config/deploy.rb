@@ -22,7 +22,7 @@ task :staging do
     %w(start restart).each { |name| task name, :roles => :app do passenger.restart end }
     desc "change owner and rename the public folder to web"
     task :after_update_code, :roles => :app do
-      run "mv #{current_path}/public #{current_path}/web"
+      run "mv #{release_path}/public #{release_path}/web"
     end
     #desc "Symlink the pictures directory"
     #task :after_update_code, :roles => :app do
