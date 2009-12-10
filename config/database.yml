@@ -55,4 +55,4 @@ staging:
   pool: 5
   username: root
   password: ameera6786
-  socket: /usr/bin/mysql/mysql.sock
+  socket: /var/lib/mysql/mysql.sock
