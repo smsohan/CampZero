@@ -46,3 +46,13 @@ production:
   username: root
   password: 
   socket: /tmp/mysql.sock
+
+staging:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: CampZero_staging
+  pool: 5
+  username: root
+  password: ameera6786
+  socket: /usr/bin/mysql/mysql.sock
