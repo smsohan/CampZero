@@ -4,7 +4,7 @@ class AttachedFile < ActiveRecord::Base
 
   has_attached_file :file, :styles => {:small => '80x60>', :medium => '400x300>'},
     :url  => "/attached_files/:id/:style/:basename.:extension",
-    :path => ":rails_root/public/attached_files/:id/:style/:basename.:extension"
+    :path => ":rails_root/web/attached_files/:id/:style/:basename.:extension"
 
   validates_attachment_presence :file
   validates_presence_of :service_id
