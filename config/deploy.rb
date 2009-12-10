@@ -1,7 +1,7 @@
 task :staging do
   set :application, "CampZero"
   set :deploy_to, "~/app"
-  set :use_sudo, false
+  set :use_sudo, true
   set :scm_verbose, true
   set :rails_env, "staging"
   set :user, "webmaster"
