@@ -20,6 +20,11 @@ task :staging do
   end
   namespace :deploy do
     %w(start restart).each { |name| task name, :roles => :app do passenger.restart end }
+    desc "change owner and rename the public folder to web"
+    task :after_update_code, :roles => :app do
+      run "sudo chown -R apache #{current_path}"
+      run "sudo mv #{current_path}/public #{current_path}/web"
+    end
     #desc "Symlink the pictures directory"
     #task :after_update_code, :roles => :app do
     #  run "ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml"
