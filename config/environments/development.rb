@@ -14,5 +14,16 @@ config.action_view.debug_rjs                         = true
 config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
-config.action_mailer.raise_delivery_errors = false
+config.action_mailer.raise_delivery_errors = true
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 Paperclip.options[:command_path] = '/opt/local/bin'
+
+ActionMailer::Base.smtp_settings= { :address => 'smtp.gmail.com',
+                                    :port => '587',
+                                    :authentication => :plain,
+                                    :user_name => 'NoReply.CampZero@gmail.com',
+                                    :password => 'ameera6786',
+                                    :enable_starttls_auto => true,
+                                    :tls => true
+                                  }

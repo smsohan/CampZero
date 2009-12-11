@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091209035837) do
+ActiveRecord::Schema.define(:version => 20091211162602) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -53,5 +53,19 @@ ActiveRecord::Schema.define(:version => 20091209035837) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "users", :force => true do |t|
+    t.string   "email"
+    t.string   "crypted_password"
+    t.string   "password_salt"
+    t.string   "persistence_token"
+    t.string   "perishable_token",  :default => "", :null => false
+    t.boolean  "active"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], :name => "index_users_on_email"
+  add_index "users", ["perishable_token"], :name => "index_users_on_perishable_token"
 
 end

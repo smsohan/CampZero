@@ -1,0 +1,6 @@
+<%unless(@user.nil?)%>
+<h1>Please click the 'Activate' button to activate your account</h1>
+  <% form_for(@user_session, :url => activations_path({:id => @user.perishable_token})) do |f| %>
+    <%= f.submit 'Activate' %>
+  <%end%>
+<%end%>
