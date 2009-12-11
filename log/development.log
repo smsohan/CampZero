@@ -6104,3 +6104,15 @@ Rendering services/show
   [4;35;1mAttachedFile Load (16.4ms)[0m   [0mSELECT * FROM `attached_files` WHERE (`attached_files`.service_id = 4) [0m
   [4;36;1mAttachedFile Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `attached_files`[0m
 Completed in 205ms (View: 176, DB: 24) | 200 OK [http://localhost/services/4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:30:17) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]

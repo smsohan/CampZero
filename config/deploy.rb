@@ -23,6 +23,7 @@ task :staging do
     desc "change owner and rename the public folder to web"
     task :after_update_code, :roles => :app do
       run "mv #{release_path}/public #{release_path}/web"
+      run "mkdir -p #{shared_path}/assets; ln -s #{shared_path}/assets #{release_path}/web/attached_files"
     end
     #desc "Symlink the pictures directory"
     #task :after_update_code, :roles => :app do
