@@ -17,7 +17,7 @@
 <% end %>
 
 <% @service.attached_files.each do |attached_file| %>
-  <%= image_tag(attached_file.file.url) %>
+  <%= image_tag(attached_file.file.url(:medium)) %>
   <%= link_to 'Remove', attached_file_path(attached_file), :confirm => 'Are you sure?', :method => :delete%>
 <%end%>
 
