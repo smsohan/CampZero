@@ -1,7 +1,9 @@
 body {
-  background-color: #4B7399;
-  font-family: Verdana, Helvetica, Arial;
+  background-color: #FFFFFF;
+  font-family: Helvetica, Arial, Verdana;
   font-size: 14px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 a img {
@@ -18,14 +20,79 @@ a {
   overflow: hidden;
 }
 
+#header
+{
+    background-color: #fffbcc;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    margin: 0;
+    border-bottom: 3px solid #222222;
+}
+
+#header #menu
+{
+    width: 75%;
+    margin:0 auto;
+    color: #444444;
+    font-family: Georgia, Arial, Verdana;
+    font-size: 1.5em;
+}
+
+#header #menu .title
+{
+    font-size: 2em;
+}
+
+#header a, #header a:visited
+{
+    text-decoration: none;
+    color: #222222;
+}
+
 #container {
   width: 75%;
   margin: 0 auto;
   background-color: #FFF;
   padding: 20px 40px;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
   margin-top: 20px;
 }
+
+#container #categories
+{
+    width: 100%;
+    background-color: #222222;
+    color: #DFB946;
+    padding: 1em;
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+    font-family: Georgia, Helvetica, Arial, Verdana;
+}
+
+#container #categories li
+{
+    font-size: 1.5em;
+    padding-bottom: 3px;
+}
+
+#container #categories a, #container #categories a:visited
+{
+    text-decoration: none;
+    color: #DFB946;
+}
+#container #categories a:hover
+{
+    border-bottom: 2px solid #DFB946;
+}
+
+
+#container #categories h1
+{
+    color: #FFFFFF;
+    font-size: 1.8em;
+    font-family: Helvetica, Arial, Verdana;
+}
+
 
 #flash_notice, #flash_error {
   padding: 5px 8px;
@@ -78,4 +145,49 @@ a {
 #errorExplanation ul li {
   font-size: 12px;
   list-style: disc;
+}
+
+.category
+{
+    float: left;
+    margin-left: 3px;
+}
+
+#newsbar
+{
+    width: 100%;
+    font-size: 1.4em;
+    text-align: center;
+}
+#newsbar h1
+{
+    color: #333;
+    font-size: 1.5em;
+    border-bottom: 1px solid #FFFFFF;
+}
+#newsbar a, #newsbar a:visited
+{
+    text-decoration: none;
+    color: #5CAAE1;
+    border-bottom: 1px solid #5CAAE1;
+}
+
+#newsbar #provider
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #222222;
+    padding: 1em;
+    float: left;
+    text-align: left;
+    font-family: Georgia, Helvetica, Verdana, Arial;
+}
+
+#newsbar #news
+{
+    width: 45%;
+    float: right;
+    background-color: #FFFFFF;
+    color: #222222;
+    padding: 1em;
 }

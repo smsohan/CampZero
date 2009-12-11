@@ -3403,3 +3403,2704 @@ Rendering services/show
   [4;36;1mAttachedFile Load (0.3ms)[0m   [0;1mSELECT * FROM `attached_files` WHERE (`attached_files`.service_id = 4) [0m
   [4;35;1mAttachedFile Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `attached_files`[0m
 Completed in 30ms (View: 17, DB: 9) | 200 OK [http://localhost/services/4]
+  [4;36;1mSQL (43.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:27:59) [GET]
+  [4;36;1mService Load (56.0ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 284ms (View: 171, DB: 102) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:28:42) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (112.6ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 121ms (View: 4, DB: 113) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:29:14) [GET]
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (29.6ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 38ms (View: 3, DB: 30) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:31:43) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 7, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:31:48) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (73.5ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 84ms (View: 6, DB: 74) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:32:13) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:33:31) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:34:12) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:34:35) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:35:36) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:35:38) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:35:45) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:38:01) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:38:27) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:38:46) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:38:52) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:41:36) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:42:25) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:43:06) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:43:40) [GET]
+  [4;36;1mService Load (4.7ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (15.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 29ms (View: 4, DB: 21) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:44:54) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:45:24) [GET]
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:46:17) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:47:24) [GET]
+  [4;36;1mService Load (0.5ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 15ms (View: 8, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:47:54) [GET]
+  [4;36;1mService Load (0.6ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:48:15) [GET]
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:48:42) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:49:09) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:49:36) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 14ms (View: 7, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:50:52) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:51:39) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 70ms (View: 63, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:52:53) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:53:44) [GET]
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 19:54:15) [GET]
+  [4;36;1mService Load (6.6ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;35;1mService Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+Completed in 20ms (View: 5, DB: 10) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 19:56:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:01:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:04:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 63ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:11:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:11:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:12:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:13:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:14:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:14:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:15:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:16:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:17:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:17:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:18:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:19:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:20:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:20:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:44:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:45:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:45:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:46:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:46:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:48:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:49:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 68ms (View: 65, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:56:05) [GET]
+  [4;36;1mServiceCategory Load (36.8ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+ERROR: compiling _run_erb_app47views47welcome47index46html46erb RAISED compile error
+/Users/smsohan/CampZero/app/views/welcome/index.html.erb:30: syntax error, unexpected kENSURE, expecting kEND
+/Users/smsohan/CampZero/app/views/welcome/index.html.erb:32: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47welcome47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"leftcol\">\n"
+@output_buffer.concat "  <h1>\n"
+@output_buffer.concat "    Shop Your Service!\n"
+@output_buffer.concat "  </h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  ";  @service_categories.each do |service_category| ; @output_buffer.concat "\n"
+@output_buffer.concat "  <fieldset>\n"
+@output_buffer.concat "    <legend>\n"
+@output_buffer.concat "      "; @output_buffer.concat(( service_category.name ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    </legend>\n"
+@output_buffer.concat "  </fieldset>\n"
+@output_buffer.concat "  <ol>\n"
+@output_buffer.concat "    ";  service_category.children.each do |category|; @output_buffer.concat "\n"
+@output_buffer.concat "    <li>"; @output_buffer.concat(( link_to category.name ).to_s); @output_buffer.concat " </li>\n"
+@output_buffer.concat "    "; end; @output_buffer.concat "\n"
+@output_buffer.concat "  </ol>\n"
+@output_buffer.concat "  Need more reasons? "; @output_buffer.concat((link_to 'Read here'  ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div class=\"clear\">\n"
+@output_buffer.concat "</div>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/smsohan/CampZero/app/views/welcome/index.html.erb:32:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/smsohan/CampZero/app/views/welcome/index.html.erb:30: syntax error, unexpected kENSURE, expecting kEND
+/Users/smsohan/CampZero/app/views/welcome/index.html.erb:32: syntax error, unexpected $end, expecting kEND) on line #30 of app/views/welcome/index.html.erb:
+27: 
+28: <div class="clear">
+29: </div>
+
+    app/views/welcome/index.html.erb:32:in `compile!'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.4ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:56:24) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 57ms (View: 50, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:57:14) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:57:29) [GET]
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (7.9ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 81ms (View: 7, DB: 11) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 20:57:47) [GET]
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (4.0ms)
+Completed in 35ms (View: 29, DB: 2) | 200 OK [http://localhost/service_categories/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 20:57:50) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;35;1mServiceCategory Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 40ms (View: 32, DB: 3) | 200 OK [http://localhost/service_categories/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#edit (for ::1 at 2009-12-10 20:57:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.9ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering service_categories/edit
+  [4;36;1mServiceCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (4.0ms)
+Completed in 18ms (View: 8, DB: 4) | 200 OK [http://localhost/service_categories/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#update (for ::1 at 2009-12-10 20:57:55) [PUT]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "id"=>"1", "service_category"=>{"name"=>"Corporate Services", "parent_id"=>""}}
+  [4;35;1mServiceCategory Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceCategory Update (0.4ms)[0m   [0;1mUPDATE `service_categories` SET `updated_at` = '2009-12-11 03:57:55', `name` = 'Corporate Services' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/1
+Completed in 11ms (DB: 3) | 302 Found [http://localhost/service_categories/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 20:57:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+Completed in 30ms (View: 23, DB: 2) | 200 OK [http://localhost/service_categories/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 20:57:56) [GET]
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;35;1mServiceCategory Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:57:59) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:59:22) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 20:59:25) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:00:16) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+Completed in 12ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:00:24) [GET]
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;35;1mServiceCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://localhost/service_categories/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 21:00:26) [GET]
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (2.5ms)
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/service_categories/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#create (for ::1 at 2009-12-10 21:00:41) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "service_category"=>{"name"=>"Household Services", "parent_id"=>""}}
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceCategory Create (0.3ms)[0m   [0;1mINSERT INTO `service_categories` (`name`, `updated_at`, `parent_id`, `created_at`) VALUES('Household Services', '2009-12-11 04:00:41', NULL, '2009-12-11 04:00:41')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/4
+Completed in 10ms (DB: 3) | 302 Found [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 21:00:41) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+Completed in 9ms (View: 2, DB: 2) | 200 OK [http://localhost/service_categories/4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:00:42) [GET]
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 21:00:44) [GET]
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (2.7ms)
+Completed in 66ms (View: 4, DB: 3) | 200 OK [http://localhost/service_categories/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#create (for ::1 at 2009-12-10 21:01:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "service_category"=>{"name"=>"Electrician", "parent_id"=>"4"}}
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceCategory Create (0.2ms)[0m   [0;1mINSERT INTO `service_categories` (`name`, `updated_at`, `parent_id`, `created_at`) VALUES('Electrician', '2009-12-11 04:01:10', 4, '2009-12-11 04:01:10')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/5
+Completed in 10ms (DB: 3) | 302 Found [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 21:01:10) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.7ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/service_categories/5]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:01:11) [GET]
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 21:01:12) [GET]
+  [4;36;1mServiceCategory Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (2.6ms)
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/service_categories/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#create (for ::1 at 2009-12-10 21:01:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "service_category"=>{"name"=>"Cleaning", "parent_id"=>"4"}}
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceCategory Create (0.2ms)[0m   [0;1mINSERT INTO `service_categories` (`name`, `updated_at`, `parent_id`, `created_at`) VALUES('Cleaning', '2009-12-11 04:01:21', 4, '2009-12-11 04:01:21')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/6
+Completed in 10ms (DB: 4) | 302 Found [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 21:01:21) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mServiceCategory Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/service_categories/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:01:22) [GET]
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 21:01:24) [GET]
+  [4;35;1mServiceCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (2.8ms)
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/service_categories/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#create (for ::1 at 2009-12-10 21:01:37) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "service_category"=>{"name"=>"Carpenter", "parent_id"=>"4"}}
+  [4;35;1mServiceCategory Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mServiceCategory Create (0.2ms)[0m   [0mINSERT INTO `service_categories` (`name`, `updated_at`, `parent_id`, `created_at`) VALUES('Carpenter', '2009-12-11 04:01:37', 4, '2009-12-11 04:01:37')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/7
+Completed in 11ms (DB: 3) | 302 Found [http://localhost/service_categories]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 21:01:37) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mServiceCategory Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (1.1ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 7) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/service_categories/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:01:38) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;35;1mServiceCategory Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 19ms (View: 10, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:01:40) [GET]
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:05:39) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:06:51) [GET]
+  [4;35;1mServiceCategory Load (0.7ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 15ms (View: 7, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:07:30) [GET]
+  [4;35;1mServiceCategory Load (1.1ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (1.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 17ms (View: 7, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:08:02) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:09:46) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:10:02) [GET]
+  [4;35;1mServiceCategory Load (1.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 17ms (View: 9, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:10:04) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:11:30) [GET]
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:12:23) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:12:53) [GET]
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+Completed in 15ms (View: 8, DB: 3) | 200 OK [http://localhost/service_categories/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#new (for ::1 at 2009-12-10 21:12:55) [GET]
+  [4;36;1mServiceCategory Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+Rendering template within layouts/application
+Rendering service_categories/new
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendered service_categories/_form (3.6ms)
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/service_categories/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#create (for ::1 at 2009-12-10 21:13:05) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"SkriRTJBsvhNVBDZD+TDQRWCzHEFuPKgbxkeJeUnXbI=", "service_category"=>{"name"=>"Projector Rental", "parent_id"=>"1"}}
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceCategory Create (0.2ms)[0m   [0;1mINSERT INTO `service_categories` (`name`, `updated_at`, `parent_id`, `created_at`) VALUES('Projector Rental', '2009-12-11 04:13:05', 1, '2009-12-11 04:13:05')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/service_categories/8
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/service_categories]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#show (for ::1 at 2009-12-10 21:13:05) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.7ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 8) [0m
+Rendering template within layouts/application
+Rendering service_categories/show
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/service_categories/8]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceCategoriesController#index (for ::1 at 2009-12-10 21:13:07) [GET]
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` [0m
+Rendering template within layouts/application
+Rendering service_categories/index
+  [4;36;1mServiceCategory Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 1) [0m
+Completed in 17ms (View: 9, DB: 3) | 200 OK [http://localhost/service_categories]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:13:07) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:13:52) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:14:09) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:15:36) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:15:39) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:17:00) [GET]
+  [4;35;1mServiceCategory Load (0.7ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:17:14) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:17:41) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:18:08) [GET]
+  [4;35;1mServiceCategory Load (1.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:18:10) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:18:35) [GET]
+  [4;35;1mServiceCategory Load (0.9ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.5ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 5, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:19:00) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 15ms (View: 7, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:19:28) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:19:38) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:20:27) [GET]
+  [4;35;1mServiceCategory Load (1.0ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 16ms (View: 7, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:20:39) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 7, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:20:56) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:21:19) [GET]
+  [4;35;1mServiceCategory Load (0.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 15ms (View: 7, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:21:41) [GET]
+  [4;35;1mServiceCategory Load (0.9ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:25:02) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:25:22) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:25:49) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:25:58) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:29:22) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:30:17) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:31:01) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:31:49) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:32:06) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:32:34) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:32:51) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:33:28) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:33:30) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:34:02) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:34:18) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:34:31) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:35:41) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:36:54) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.7ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:37:22) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:38:26) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:39:23) [GET]
+  [4;35;1mServiceCategory Load (0.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:40:16) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:40:33) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:40:58) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 15ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:41:03) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:42:41) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:43:01) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:43:06) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:44:01) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:44:15) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:44:30) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:44:44) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:45:00) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:45:26) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:45:36) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:48:26) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 66ms (View: 59, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:49:19) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:49:38) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:50:27) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:50:39) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:52:36) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:53:04) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:54:07) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:55:25) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:55:52) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:56:18) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:56:55) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:57:09) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:57:30) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:57:56) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:58:56) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 21:59:37) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:00:29) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 71ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:00:50) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:00:55) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:01:50) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:02:38) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:02:57) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:03:28) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:04:25) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 22:04:28) [GET]
+  [4;35;1mServiceProvider Columns (30.5ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (15.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (12.0ms)
+Rendered service_providers/_form (40.1ms)
+Completed in 109ms (View: 48, DB: 51) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:04:28) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:04:28) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:04:29) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#index (for ::1 at 2009-12-10 22:04:42) [GET]
+  [4;35;1mServiceProvider Load (0.3ms)[0m   [0mSELECT * FROM `service_providers` [0m
+Rendering template within layouts/application
+Rendering service_providers/index
+  [4;36;1mServiceProvider Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_providers`[0m
+Completed in 25ms (View: 19, DB: 2) | 200 OK [http://localhost/service_providers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:04:46) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:06:01) [GET]
+  [4;35;1mServiceCategory Load (0.6ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (1.1ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:06:08) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:06:11) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:07:53) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:08:16) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (1.8ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 17ms (View: 8, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 22:08:27) [GET]
+  [4;35;1mServiceCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 22:08:41) [GET]
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (10.0ms)
+Rendered service_providers/_form (18.0ms)
+Completed in 31ms (View: 16, DB: 7) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:42) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:42) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:42) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 22:08:55) [GET]
+  [4;35;1mServiceProvider Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (9.5ms)
+Rendered service_providers/_form (17.9ms)
+Completed in 31ms (View: 15, DB: 7) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:55) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:56) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:08:56) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 22:09:18) [GET]
+  [4;35;1mServiceProvider Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.7ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (10.7ms)
+Rendered service_providers/_form (18.9ms)
+Completed in 33ms (View: 16, DB: 8) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:09:18) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:09:18) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:09:19) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 22:11:10) [GET]
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.5ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (10.3ms)
+Rendered service_providers/_form (19.2ms)
+Completed in 36ms (View: 17, DB: 9) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:11:11) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:11:11) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 22:11:11) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#index (for ::1 at 2009-12-10 22:13:54) [GET]
+  [4;35;1mServiceProvider Load (0.3ms)[0m   [0mSELECT * FROM `service_providers` [0m
+Rendering template within layouts/application
+Rendering service_providers/index
+  [4;36;1mServiceProvider Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_providers`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/service_providers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#show (for ::1 at 2009-12-10 22:13:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mServiceProvider Load (0.4ms)[0m   [0;1mSELECT * FROM `service_providers` WHERE (`service_providers`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering service_providers/show
+  [4;35;1mServiceProviderCategory Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;36;1mServiceProviderCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_provider_categories` WHERE (`service_provider_categories`.`id` = 1) [0m
+Completed in 49ms (View: 40, DB: 4) | 200 OK [http://localhost/service_providers/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#index (for ::1 at 2009-12-10 22:14:04) [GET]
+  [4;35;1mServiceProvider Load (0.3ms)[0m   [0mSELECT * FROM `service_providers` [0m
+Rendering template within layouts/application
+Rendering service_providers/index
+  [4;36;1mServiceProvider Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_providers`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/service_providers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#index (for ::1 at 2009-12-10 22:14:10) [GET]
+  [4;35;1mService Load (0.3ms)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering services/index
+  [4;36;1mService Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://localhost/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServicesController#show (for ::1 at 2009-12-10 22:14:12) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mService Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (0.4ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering services/show
+  [4;35;1mServiceCategory Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.`id` = 3) [0m
+  [4;35;1mServiceProvider Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mServiceProvider Load (0.5ms)[0m   [0;1mSELECT * FROM `service_providers` WHERE (`service_providers`.`id` = 1) [0m
+  [4;35;1mAttachedFile Load (16.4ms)[0m   [0mSELECT * FROM `attached_files` WHERE (`attached_files`.service_id = 4) [0m
+  [4;36;1mAttachedFile Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `attached_files`[0m
+Completed in 205ms (View: 176, DB: 24) | 200 OK [http://localhost/services/4]

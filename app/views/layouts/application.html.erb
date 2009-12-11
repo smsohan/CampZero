@@ -7,13 +7,14 @@
     <%= yield(:head) %>
   </head>
   <body>
-
-    <div id="container">
-      <div id="header">
-        <%= link_to 'New service provider', new_service_provider_path %>
-        <%= link_to 'Service providers', service_providers_path %>
-        <%= link_to 'Services', services_path %>
+    <div id="header">
+      <div id="menu">
+        <%= link_to 'CampZero.com', root_path, :class => 'title' %> <i><sup>alpha</sup></i>
+        <br />
+        Service.Delivered!
       </div>
+    </div>
+    <div id="container">
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <%- end -%>

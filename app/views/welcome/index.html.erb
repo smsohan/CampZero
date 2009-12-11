@@ -1,0 +1,43 @@
+<% content_for :title do%>
+   CampZero.com - Find catering, car rental and other such service providers at Dhaka, Bangladesh
+<%end%>
+
+<div id="categories">
+  <h1>
+    Shop Your Service!
+  </h1>
+
+  <% if @service_categories.present? %>
+
+    <% width = (100 / @service_categories.size) -1%>
+
+    <% @service_categories.each do |service_category| %>
+      <div class="category" style="width:<%= width%>%;">
+           <fieldset>
+           <legend>
+           <%= service_category.name %>
+           </legend>
+           <ul>
+           <% service_category.children.each do |category|%>
+             <li><%= link_to category.name %> </li>
+           <%end%>
+           </ul>
+           </fieldset>
+           </div>
+         <%end%>
+         <div class="clear">
+      </div>
+    <%end%>
+  </div>
+
+<div id="newsbar">
+  <div id="provider">
+    <h1>Why Should You List Your Business?</h1>
+    <ul>
+      <li>Attract new customers.</li>
+      <li>Get customer feedback.</li>
+      <li>It's FREE!!</li>
+    </ul>
+    Interested? <%= link_to 'Start Here', new_service_provider_path %>
+  </div>
+</div>
