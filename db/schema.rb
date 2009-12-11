@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091211162602) do
+ActiveRecord::Schema.define(:version => 20091211222159) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(:version => 20091211162602) do
     t.boolean  "active"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name",                              :null => false
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"

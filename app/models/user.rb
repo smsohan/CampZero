@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
   acts_as_authentic
 
+  validates_presence_of :name
+
   def deliver_password_reset_instructions!
     reset_perishable_token!
     email = Notifier.deliver_password_reset_instructions(self)
