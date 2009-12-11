@@ -1,4 +1,16 @@
-<% title "New User" %>
+<% title 'Welcome' %>
+<div class="lefthalf">
+  <fieldset>
+    <legend>New User</legend>
+    <%= render :partial => 'form' %>
+  </fieldset>
+</div>
+<div class="righthalf">
+  <fieldset>
+    <legend>Existing User</legend>
+    <%= render :partial => 'user_sessions/new' %>
+  </fieldset>
+</div>
+<div class="clear"></div>
 
-<%= render :partial => 'form' %>
 

@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_filter :init_session, :only =>[:new]
+
   def index
     @users = User.all
   end
@@ -20,6 +22,7 @@ class UsersController < ApplicationController
     else
       flash[:error] = 'Please provide valid data to complete the signup process!'
       logger.error @user.errors.inspect
+      init_session
       render :action => "new"
     end
   end

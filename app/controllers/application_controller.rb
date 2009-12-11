@@ -7,4 +7,10 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+
+  protected
+  def init_session
+    @user_session = UserSession.new
+  end
+
 end
