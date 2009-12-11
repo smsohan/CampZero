@@ -6116,3 +6116,211 @@ Rendering welcome/index
   [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
   [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
 Completed in 14ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 23:07:08) [GET]
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (9.8ms)
+Rendered service_providers/_form (18.6ms)
+Completed in 32ms (View: 16, DB: 7) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:07:08) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (3.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:07:08) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 23:07:20) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 23:10:01) [GET]
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (9.7ms)
+Rendered service_providers/_form (18.1ms)
+Completed in 31ms (View: 16, DB: 7) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:10:02) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:10:02) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#index (for ::1 at 2009-12-10 23:10:10) [GET]
+  [4;35;1mServiceProvider Load (0.3ms)[0m   [0mSELECT * FROM `service_providers` [0m
+Rendering template within layouts/application
+Rendering service_providers/index
+  [4;36;1mServiceProvider Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_providers`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/service_providers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for ::1 at 2009-12-10 23:10:14) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceProvidersController#new (for ::1 at 2009-12-10 23:11:47) [GET]
+  [4;35;1mServiceProvider Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `service_providers`[0m
+  [4;36;1mService Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering service_providers/new
+  [4;35;1mServiceProviderCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_provider_categories` [0m
+  [4;36;1mServiceProviderCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `service_provider_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+  [4;36;1mServiceCategory Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+Rendered services/_form (11.4ms)
+Rendered service_providers/_form (75.6ms)
+Completed in 89ms (View: 73, DB: 8) | 200 OK [http://localhost/service_providers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:11:47) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-12-10 23:11:47) [GET]
+  Parameters: {"1253661662"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
