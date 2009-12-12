@@ -15,7 +15,9 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :service_provider_categories
 
-  map.resources :service_categories
+  map.resources :service_categories do |service_category|
+    service_category.resources :services
+  end
 
   map.resources :password_resets
 

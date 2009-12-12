@@ -19,7 +19,7 @@
            </legend>
            <ul>
            <% service_category.children.each do |category|%>
-             <li><%= link_to category.name %> </li>
+             <li><%= link_to category.name, service_category_services_path(category) %> </li>
            <%end%>
            </ul>
            </fieldset>

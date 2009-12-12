@@ -12,8 +12,8 @@ class AttachedFile < ActiveRecord::Base
     file.original_filename
   end
 
-  def url
-    file.url
+  def url(size = :original)
+    file.url(size)
   end
 
   def path

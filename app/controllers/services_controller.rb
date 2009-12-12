@@ -1,6 +1,18 @@
 class ServicesController < ApplicationController
   def index
-    @services = params[:user_id].blank? ? Service.all : Service.find_all_by_user_id(params[:user_id])
+    if params[:user_id]
+      user = User.find params[:user_id]
+      @services = user.services
+      @title = "Services by #{user.name}"
+    elsif params[:service_category_id]
+      service_category = ServiceCategory.find params[:service_category_id]
+      @services = service_category.services
+      @title = "#{service_category.name} Services"
+    else
+      @services = Service.all
+    end
+    
+    
   end
   
   def show

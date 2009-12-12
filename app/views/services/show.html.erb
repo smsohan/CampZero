@@ -1,4 +1,4 @@
-<% title "Service" %>
+<% title @service.title || "Service" %>
 
 <p>
   <strong>Service Category:</strong>
@@ -6,7 +6,7 @@
 </p>
 <p>
   <strong>Service Provider:</strong>
-  <%=h @service.service_provider.name if @service.service_provider%>
+  <%=h @service.user.name if @service.user%>
 </p>
 <p>
   <strong>Service Description:</strong>
@@ -25,7 +25,6 @@
   <% if current_user == @service.user %>
     <%= link_to "Edit", edit_service_path(@service) %> |
     <%= link_to "Upload new image", new_service_attached_file_path(@service) %> |
+    <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %>
   <%end%>
-  <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %> |
-  <%= link_to "View All", services_path %>
 </p>

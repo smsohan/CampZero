@@ -1,21 +1,28 @@
-<% title "Services" %>
+<% title @title || "Services" %>
 
-<table>
-  <tr>
-    <th>Service Category</th>
-    <th>Service Provider</th>
-    <th>Service Description</th>
-  </tr>
-  <% for service in @services %>
-    <tr>
-      <td><%=h service.service_category_id %></td>
-      <td><%=h service.service_provider_id %></td>
-      <td><%= service.service_description %></td>
-      <td><%= link_to "Show", service %></td>
-      <td><%= link_to "Edit", edit_service_path(service) %></td>
-      <td><%= link_to "Destroy", service, :confirm => 'Are you sure?', :method => :delete %></td>
-    </tr>
-  <% end %>
-</table>
+<% for service in @services %>
+  <div style="width:100%;margin: 1em 0; border-bottom: 1px solid #222222;">
+    <div style="width: 20%; float: left;">
+      <% if (service.attached_files.present?) %>
+        <%= link_to image_tag(service.attached_files.first.url(:small)), service_path(service)  %>
+      <% else %>
+        &nbsp;
+      <% end %>
+    </div>
+    <div style="width: 80%; float: right;">
+      <span style="font-weight: bold">
+        <%= link_to service.title, service_path(service) %>
+        <% if current_user == service.user %>
+          (
+          <%= link_to 'Edit', edit_service_path(service) %> |
+          <%= link_to 'Delete', service_path(service), :confirm => 'Are you sure you want to delete this ad?', :method => :delete %>
+          )
+        <% end %>
+      </span>
+      <p><%= service.service_description %></p>
+    </div>
+    <div class="clear"></div>
+  </div>
+<% end %>
 
 <p><%= link_to "New Service", new_service_path %></p>
