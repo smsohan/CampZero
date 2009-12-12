@@ -7,7 +7,6 @@ class AttachedFile < ActiveRecord::Base
     :path => ":rails_root/#{PUBLIC_FOLDER_NAME}/attached_files/:id/:style/:basename.:extension"
 
   validates_attachment_presence :file
-  validates_presence_of :service_id
 
   def name
     file.original_filename

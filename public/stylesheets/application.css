@@ -1,23 +1,23 @@
 body {
-  background-color: #FFFFFF;
-  font-family: Helvetica, Arial, Verdana;
-  font-size: 14px;
-  width: 100%;
-  margin: 0 auto;
+    background-color: #FFFFFF;
+    font-family: Helvetica, Arial, Verdana;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 a img {
-  border: none;
+    border: none;
 }
 
 a {
-  color: #0000FF;
+    color: #0000FF;
 }
 
 .clear {
-  clear: both;
-  height: 0;
-  overflow: hidden;
+    clear: both;
+    height: 0;
+    overflow: hidden;
 }
 
 #header
@@ -50,12 +50,12 @@ a {
 }
 
 #container {
-  width: 75%;
-  margin: 0 auto;
-  background-color: #FFF;
-  padding: 20px 40px;
-  /*border: solid 1px black;*/
-  margin-top: 20px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px 40px;
+    /*border: solid 1px black;*/
+    margin-top: 20px;
 }
 
 #container #categories
@@ -95,56 +95,56 @@ a {
 
 
 #flash_notice, #flash_error {
-  padding: 5px 8px;
-  margin: 10px 0;
+    padding: 5px 8px;
+    margin: 10px 0;
 }
 
 #flash_notice {
-  background-color: #CFC;
-  border: solid 1px #6C6;
+    background-color: #CFC;
+    border: solid 1px #6C6;
 }
 
 #flash_error {
-  background-color: #FCC;
-  border: solid 1px #C66;
+    background-color: #FCC;
+    border: solid 1px #C66;
 }
 
 .fieldWithErrors {
-  display: inline;
+    display: inline;
 }
 
 #errorExplanation {
-  width: 400px;
-  border: 2px solid #CF0000;
-  padding: 0px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+    width: 400px;
+    border: 2px solid #CF0000;
+    padding: 0px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
 }
 
 #errorExplanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: 0;
-  background-color: #c00;
-  color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: 0;
+    background-color: #c00;
+    color: #fff;
 }
 
 #errorExplanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 8px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 8px;
 }
 
 #errorExplanation ul {
-  margin: 2px 24px;
+    margin: 2px 24px;
 }
 
 #errorExplanation ul li {
-  font-size: 12px;
-  list-style: disc;
+    font-size: 12px;
+    list-style: disc;
 }
 
 .category
@@ -170,6 +170,11 @@ a {
     text-decoration: none;
     color: #5CAAE1;
     border-bottom: 1px solid #5CAAE1;
+}
+
+a
+{
+    color: #5CAAE1;
 }
 
 #newsbar #provider
@@ -208,4 +213,22 @@ a {
 {
     font-weight: bold;
     font-size: 1.2em;
+}
+
+#menu .menu-item
+{
+    border: 2px solid #DFB946;
+    float: right;
+    padding: 0.5em;
+    background-color: #222222;
+}
+
+#menu .menu-item a, #menu .menu-item a:visited
+{
+    color: #DFB946;
+}
+
+#menu .menu-item a:hover
+{
+    border-bottom: 2px solid #DFB946;
 }

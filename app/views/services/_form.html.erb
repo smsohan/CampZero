@@ -2,27 +2,36 @@
   <%= javascript_include_tag 'tiny_mce/tiny_mce.js' %>
 <%end%>
 
-<% service_provider = service_provider_form.object %>
-<%
-unless service_provider.services.blank?
-  service_provider.services.each do |service|%>
-    <% selected_category = service.service_category_id  %>
+<% form_for @service, :html => {:multipart => true} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <strong><%= f.label :service_category_id %></strong><br />
+    <%= f.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name), :prompt => true %>
+  </p>
+  <p>
+    <strong><%= f.label :title %></strong><br />
+    <%= f.text_field :title, :size => 80  %>
+  </p>
+  <p>
+    <strong><%= f.label :service_description %></strong> <i>(also include address, phone number, email etc.)</i><br />
+    <%= f.text_area :service_description, :style => "width : 700; rows : 10" %>
+  </p>
+  <% if @service.attached_files %>
+    <strong>Upload pictures</strong>
+    <ol>
+      <% @service.attached_files.each do |attached_file| %>
+        <li>
+          <% f.fields_for :attached_files, attached_file do |file_fields| %>
+            <%= render :partial => 'attached_files/form', :locals => {:file_fields => file_fields} %>
+          <%end%>
+        </li>
+      <%end%>
+    </ol>
+  <%end%>
 
-    <% service_provider_form.fields_for :services, service do |service_fields| %>
+  <%= submit_tag 'Submit' %>
+<% end %>
 
-      <p>
-        <%= service_fields.label :service_category_id %><br />
-        <%= service_fields.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name, selected_category), :include_blank => true %>
-      </p>
-      <p>
-        <%= service_fields.label :service_description %><br />
-        <%= service_fields.text_area :service_description, :style => "width : 700; rows : 10" %>
-      </p>
-      
-    <% end %>
-
-  <%end
-end%>
 
 <% content_for :tail do %>
   <%= javascript_include_tag 'tiny_mce/init.js' %>

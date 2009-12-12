@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   acts_as_authentic
+  has_many :services
 
   validates_presence_of :name
 

@@ -1,5 +1,6 @@
-<%= link_to 'Go Back to Service Ad', service_path(@attached_file.service) %>
+<%= link_to "Go back to: #{@attached_file.service.title}", service_path(@attached_file.service) %>
 
+<h2>Upload new image for <%= @attached_file.service.title%> </h2>
 <% form_for @attached_file, :html => {:multipart => true} do |f| %>
   <%= f.error_messages %>
   <%= f.hidden_field :service_id %>
@@ -12,7 +13,8 @@
     <%= f.file_field :file %>
   </p>
 
-  <p><%= f.submit "Submit" %></p>
+  <p><%= f.submit "Submit" %>
+  or <%= link_to "Go back to: #{@attached_file.service.title}", service_path(@attached_file.service) %></p>
 <% end %>
 
 

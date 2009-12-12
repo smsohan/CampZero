@@ -1,6 +1,6 @@
 class ServicesController < ApplicationController
   def index
-    @services = Service.all
+    @services = params[:user_id].blank? ? Service.all : Service.find_all_by_user_id(params[:user_id])
   end
   
   def show
@@ -9,10 +9,15 @@ class ServicesController < ApplicationController
   
   def new
     @service = Service.new
+    @service.attached_files.build
+    @service.attached_files.build
+    @service.attached_files.build
   end
   
   def create
+    clean_empty_attached_file_attributes
     @service = Service.new(params[:service])
+    @service.user = current_user
     if @service.save
       flash[:notice] = "Successfully created service."
       redirect_to @service
@@ -40,5 +45,15 @@ class ServicesController < ApplicationController
     @service.destroy
     flash[:notice] = "Successfully destroyed service."
     redirect_to services_url
+  end
+
+  private
+  def clean_empty_attached_file_attributes
+    attached_file_attributes = params[:service][:attached_files_attributes]
+    return if attached_file_attributes.blank?
+    attached_file_attributes.each_key do |id|
+      attached_file_attributes.delete(id) if attached_file_attributes[id]["file"].blank?
+    end
+    params[:service][:attached_files_attributes] = attached_file_attributes
   end
 end

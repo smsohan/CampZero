@@ -38,6 +38,8 @@
       <li>Get customer feedback.</li>
       <li>It's FREE!!</li>
     </ul>
+    <% unless current_user %>
     Interested? <%= link_to 'Start Here', new_user_path %>
+    <% end %>
   </div>
 </div>

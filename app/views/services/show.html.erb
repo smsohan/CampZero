@@ -14,11 +14,18 @@
 </p>
 
 <% @service.attached_files.each do |attached_file| %>
-  <%= link_to image_tag(attached_file.file.url(:medium)), attached_file.file.url(:original) %>
+  <div style="float: left; text-align: center; height: 330px; vertical-align: bottom;">
+    <%= link_to image_tag(attached_file.file.url(:medium)), attached_file.file.url(:original) %> <br />
+    <%= attached_file.caption %>
+  </div>
 <%end%>
+<div class="clear"></div>
 
 <p>
-  <%= link_to "Edit", edit_service_path(@service) %> |
+  <% if current_user == @service.user %>
+    <%= link_to "Edit", edit_service_path(@service) %> |
+    <%= link_to "Upload new image", new_service_attached_file_path(@service) %> |
+  <%end%>
   <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %> |
   <%= link_to "View All", services_path %>
 </p>

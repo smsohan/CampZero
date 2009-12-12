@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091211222159) do
+ActiveRecord::Schema.define(:version => 20091212014136) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(:version => 20091211222159) do
     t.integer  "service_provider_category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "services", :force => true do |t|
@@ -52,6 +53,8 @@ ActiveRecord::Schema.define(:version => 20091211222159) do
     t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.integer  "user_id"
   end
 
   create_table "users", :force => true do |t|

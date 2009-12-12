@@ -1,0 +1,29 @@
+<% content_for :head do %>
+  <%= javascript_include_tag 'tiny_mce/tiny_mce.js' %>
+<%end%>
+
+<% service_provider = service_provider_form.object %>
+<%
+unless service_provider.services.blank?
+  service_provider.services.each do |service|%>
+    <% selected_category = service.service_category_id  %>
+
+    <% service_provider_form.fields_for :services, service do |service_fields| %>
+
+      <p>
+        <%= service_fields.label :service_category_id %><br />
+        <%= service_fields.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name, selected_category), :include_blank => true %>
+      </p>
+      <p>
+        <%= service_fields.label :service_description %><br />
+        <%= service_fields.text_area :service_description, :style => "width : 700; rows : 10" %>
+      </p>
+      
+    <% end %>
+
+  <%end
+end%>
+
+<% content_for :tail do %>
+  <%= javascript_include_tag 'tiny_mce/init.js' %>
+<%end%>
