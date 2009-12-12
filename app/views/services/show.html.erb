@@ -6,7 +6,7 @@
 </p>
 <p>
   <strong>Service Provider:</strong>
-  <%=h @service.user.name if @service.user%>
+  <%=link_to(@service.user.name, user_services_path(@service.user)) if @service.user%>
 </p>
 <p>
   <strong>Service Description:</strong>
