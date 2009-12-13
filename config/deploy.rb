@@ -24,6 +24,8 @@ task :staging do
     task :after_update_code, :roles => :app do
       run "mv #{release_path}/public #{release_path}/web"
       run "mkdir -p #{shared_path}/assets; ln -s #{shared_path}/assets #{release_path}/web/attached_files"
+      run "ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+      run "ln -s #{shared_path}/config/#{rails_env}.sphinx.conf #{release_path}/config/#{rails_env}.sphinx.conf"
       #thinking_sphinx.configure
       #thinking_sphinx.index
       thinking_sphinx.rebuild
