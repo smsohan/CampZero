@@ -8,6 +8,8 @@ class Service < ActiveRecord::Base
 
   accepts_nested_attributes_for :attached_files
 
+  after_create :generate_permalink
+
   define_index do
     indexes title
     indexes service_description
@@ -27,6 +29,18 @@ class Service < ActiveRecord::Base
       logger.error("Exception in service search for #{error.message} at #{error.backtrace.join}")
     end
     return services.compact || [].paginate(:page => page, :per_page => PER_PAGE)
+  end
+
+  def to_param
+    self.permalink || self.id.to_s
+  end
+
+  protected
+  def generate_permalink
+    self.permalink = self.id.to_s + '-' + self.user.name + '-' + self.title
+    self.permalink = self.permalink.gsub(/[^[:alnum:]]/, '-')
+    self.permalink = self.permalink[0..25].downcase
+    self.save!
   end
   
 end

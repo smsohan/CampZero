@@ -1,5 +1,5 @@
 class ServicesController < ApplicationController
-  before_filter :login_required, :only => [:edit, :update, :destroy]
+  before_filter :login_required, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
     if params[:query]

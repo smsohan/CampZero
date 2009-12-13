@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091213045255) do
+ActiveRecord::Schema.define(:version => 20091213063718) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(:version => 20091213045255) do
     t.string   "title"
     t.integer  "user_id"
     t.boolean  "delta",               :default => true, :null => false
+    t.string   "permalink"
   end
 
   create_table "users", :force => true do |t|
