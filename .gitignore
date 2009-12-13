@@ -3,3 +3,4 @@ log/*.log
 log/*.pid
 tmp/**/*
 public/attached_files/**/*
+db/sphinx/**/*

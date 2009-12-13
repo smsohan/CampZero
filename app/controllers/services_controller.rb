@@ -1,18 +1,19 @@
 class ServicesController < ApplicationController
   def index
-    if params[:user_id]
-      user = User.find params[:user_id]
-      @services = user.services
-      @title = "Services by #{user.name}"
+    if params[:query]
+      @services = Service.search_by_text params[:query], params[:page]
+      @title = "Services containing \"#{params[:query]}\""
     elsif params[:service_category_id]
       service_category = ServiceCategory.find params[:service_category_id]
-      @services = service_category.services
+      @services = service_category.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
       @title = "#{service_category.name} Services"
+    elsif params[:user_id]
+      user = User.find params[:user_id]
+      @services = user.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
+      @title = "Services by #{user.name}"
     else
       @services = Service.all
     end
-    
-    
   end
   
   def show

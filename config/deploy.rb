@@ -24,6 +24,13 @@ task :staging do
     task :after_update_code, :roles => :app do
       run "mv #{release_path}/public #{release_path}/web"
       run "mkdir -p #{shared_path}/assets; ln -s #{shared_path}/assets #{release_path}/web/attached_files"
+      thinking_sphinx.configure
+      thinking_sphinx.index
+      thinking_sphinx.start
+    end
+    
+    task :before_update_code, :roles => [:app] do
+      thinking_sphinx.stop
     end
     #desc "Symlink the pictures directory"
     #task :after_update_code, :roles => :app do

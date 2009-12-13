@@ -25,4 +25,8 @@
   </div>
 <% end %>
 
+<p>
+  <%= render :partial => 'layouts/pagination_links', :locals => {:pagables => @services }%>
+</p>
+
 <p><%= link_to "New Service", new_service_path %></p>
