@@ -38,7 +38,7 @@ class Service < ActiveRecord::Base
   protected
   def generate_permalink
     self.permalink = self.id.to_s + '-' + self.user.name + '-' + self.title
-    self.permalink = self.permalink.gsub(/[^[:alnum:]]/, ' ').gsub(/\W(\W)*/, '-')
+    self.permalink = self.permalink.gsub(/[^[:alnum:]]/, ' ').strip.gsub(/\W(\W)*/, '-')
     self.permalink = self.permalink[0..50].downcase
     self.save!
   end
