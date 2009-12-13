@@ -1,0 +1,15 @@
+<h2><% title 'Reset your password'  %></h2>
+<% form_for(:user, @user, :url => password_reset_path({:id => params[:id]}), :html => {:method => :put}) do |user_form| %>
+  <p>
+    <strong><%= user_form.label :password %></strong><br />
+    <%= user_form.password_field :password %>
+  </p>
+  <p>
+    <strong><%= user_form.label :password_confirmation %></strong><br />
+    <%= user_form.password_field :password_confirmation %>
+  </p>
+
+  <p>
+    <button type="submit" style="font-size: 1.2em;">Reset</button>
+  </p>
+<%end%>

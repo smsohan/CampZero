@@ -1,8 +1,5 @@
 class PasswordResetsController < ApplicationController
-  skip_before_filter :authenticate
-  before_filter :initialize_user_session
   before_filter :load_user_by_perishable_token, :only => [:edit, :update]
-  layout 'public'
 
   def new
     @user = User.new
@@ -12,10 +9,10 @@ class PasswordResetsController < ApplicationController
     @user = User.find_by_email(params[:user][:email])
     if(@user)
       @user.deliver_password_reset_instructions!
-      flash[:notice] = flash_message(:password_reset_instruction)
+      flash[:notice] = 'Please check your email for password reset instruction.'
       render :action=>:new
     else
-      flash[:notice] = flash_message(:password_reset_missing_email)
+      flash[:error] = 'Please provide email address of your existing account to reset the password.'
       @user = User.new :email => params[:email]
       @user.errors.add :email
       render :action => :new
@@ -24,7 +21,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def edit
-    flash[:notice] = ''
+    
   end
 
   def update
@@ -32,12 +29,12 @@ class PasswordResetsController < ApplicationController
     @user.password_confirmation = params[:user][:password_confirmation]
 
     unless(@user.save)
-      flash[:notice] = flash_message(:password_reset_failed)
+      flash[:error] = 'The password reset operation failed. Please try again later.'
       render :action => :edit
       return
     end
-    flash[:notice] = flash_message(:password_reset_completed)
-    redirect_to user_dashboard_path(@user)
+    flash[:notice] = 'The password reset process completed successfully.'
+    redirect_to root_path
 
   end
 
@@ -45,8 +42,9 @@ class PasswordResetsController < ApplicationController
   def load_user_by_perishable_token
     @user = User.find_by_perishable_token(params[:id])
     unless(@user)
-      flash[:notice] = flash_message(:password_reset_invalid_url)
-      redirect_to login_path
+      flash[:error] = 'Please check your password reset URL and retry.'
+      redirect_to root_path
+      return false
     end
     
   end

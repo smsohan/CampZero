@@ -1,0 +1,9 @@
+<% title 'Reset your password' %>
+<%form_for(@user, :url => password_resets_path) do |f|%>
+  <p>
+    <strong><%= f.label :email %> </strong><br />
+    <%= f.text_field 'email' %>
+  </p>
+  <button type="submit" style="font-size:1.2em;">Reset password</button>
+  
+<%end%>

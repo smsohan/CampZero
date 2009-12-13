@@ -9,6 +9,9 @@
     <%= f.password_field :password %>
   </p>
   <p><%= f.submit "Login" %></p>
+  <p>
+    Forgot password? <%= link_to 'Reset here', new_password_reset_path %>
+  </p>
 <% end %>
 
 

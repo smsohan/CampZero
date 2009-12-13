@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_filter :init_session, :only =>[:new]
   before_filter :login_required, :only => [:index, :show, :edit, :update, :destroy]
-  before_filter :admin_required, :only => [:index, :destroy]
+  before_filter :admin_required, :only => [:index, :show, :destroy]
 
   def index
     @users = User.all
@@ -37,7 +37,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
       flash[:notice] = "Successfully updated user."
-      redirect_to @user
+      redirect_to root_path
     else
       render :action => 'edit'
     end
