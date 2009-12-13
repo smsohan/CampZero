@@ -30,7 +30,7 @@ task :staging do
     end
     
     task :before_update_code, :roles => [:app] do
-      thinking_sphinx.stop
+      #thinking_sphinx.stop
     end
     #desc "Symlink the pictures directory"
     #task :after_update_code, :roles => :app do
