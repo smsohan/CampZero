@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
   before_filter :init_session, :only =>[:new]
+  before_filter :login_required, :only => [:index, :show, :edit, :update, :destroy]
+  before_filter :admin_required, :only => [:index, :destroy]
 
   def index
     @users = User.all

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  ADMIN = 'admin'
   acts_as_authentic
   has_many :services
 

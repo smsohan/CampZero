@@ -1,5 +1,6 @@
 class AttachedFilesController < ApplicationController
-
+  before_filter :login_required, :only => [:new, :create, :destroy]
+  
   def new
     service = Service.find(params[:service_id])
     @attached_file = service.attached_files.build

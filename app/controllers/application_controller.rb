@@ -7,9 +7,13 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-  helper_method :current_user
+  helper_method :current_user, :admin?
   
   protected
+  def admin?
+    current_user && current_user.role == User::ADMIN
+  end
+
   def init_session
     @user_session = UserSession.new
   end
@@ -22,6 +26,22 @@ class ApplicationController < ActionController::Base
   def current_user
     return @current_user if defined?(@current_user)
     @current_user = current_user_session && current_user_session.record
+  end
+
+  def login_required
+    unless current_user.present?
+      flash[:error] = 'Sorry! You can enter this page after you login!'
+      redirect_to root_path
+      return false
+    end
+  end
+
+  def admin_required
+    unless admin?
+      flash[:error] = 'Sorry! Only admin can see this page!'
+      redirect_to root_path
+      return false
+    end
   end
 
 end

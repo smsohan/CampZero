@@ -1,4 +1,6 @@
 class ServicesController < ApplicationController
+  before_filter :login_required, :only => [:edit, :update, :destroy]
+
   def index
     if params[:query]
       @services = Service.search_by_text params[:query], params[:page]
@@ -12,7 +14,7 @@ class ServicesController < ApplicationController
       @services = user.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
       @title = "Services by #{user.name}"
     else
-      @services = Service.all
+      @services = Service.all.paginate :page => params[:page], :per_page => Service::PER_PAGE
     end
   end
   
@@ -41,10 +43,19 @@ class ServicesController < ApplicationController
   
   def edit
     @service = Service.find(params[:id])
+    unless current_user == @service.user
+      flash[:error] = 'Sorry! You do not have permission to edit this ad!'
+      render :show
+    end
   end
   
   def update
     @service = Service.find(params[:id])
+    unless current_user == @service.user
+      flash[:error] = 'Sorry! You do not have permission to update this ad!'
+      render :show
+      return
+    end
     if @service.update_attributes(params[:service])
       flash[:notice] = "Successfully updated service."
       redirect_to @service
@@ -55,6 +66,10 @@ class ServicesController < ApplicationController
   
   def destroy
     @service = Service.find(params[:id])
+    unless current_user == @service.user
+      flash[:error] = 'Sorry! You do not have permission to delete this ad!'
+      render :show
+    end
     @service.destroy
     flash[:notice] = "Successfully destroyed service."
     redirect_to services_url
