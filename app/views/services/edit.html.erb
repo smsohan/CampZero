@@ -10,6 +10,10 @@
     <%= f.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name, @service.service_category_id), :include_blank => true %>
   </p>
   <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title, :size => 80 %>
+  </p>
+  <p>
     <%= f.label :service_description %><br />
     <%= f.text_area :service_description, :style => "width : 700; rows : 10" %>
   </p>
