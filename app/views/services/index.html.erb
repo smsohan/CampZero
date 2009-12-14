@@ -1,5 +1,7 @@
+<% rating_stars :generate_css => true %>
 <% title @title || "Services" %>
 
+  
 <% for service in @services %>
   <div style="width:100%;margin: 1em 0; border-bottom: 1px solid #222222;">
     <div style="width: 20%; float: left;">
@@ -12,6 +14,7 @@
     <div style="width: 80%; float: right;">
       <span style="font-weight: bold">
         <%= link_to service.title, service_path(service) %>
+        <%= render :partial => 'ratings/rating', :locals => { :rateable => service } %>
         <% if current_user == service.user %>
           (
           <%= link_to 'Edit', edit_service_path(service) %> |

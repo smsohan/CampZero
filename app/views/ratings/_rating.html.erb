@@ -1,0 +1,32 @@
+<ul class="star-rating">
+  <li><%= link_to("1", service_ratings_path(rateable, {:rating => 1}), :method => :post,
+          :class => 'one-star', :title =>"Poor", :name => 'Poor') %>
+  </li>
+
+  <li><%= link_to("2", service_ratings_path(rateable, {:rating => 2}), :method => :post,
+          :class => 'two-stars', :title =>"Nothing special", :name => 'Nothing special') %>
+  </li>
+
+  <li><%= link_to("3", service_ratings_path(rateable, {:rating => 3}), :method => :post,
+          :class => 'three-stars', :title =>"Okay", :name => 'Okay') %>
+  </li>
+
+  <li><%= link_to("4", service_ratings_path(rateable, {:rating => 4}), :method => :post,
+          :class => 'four-stars', :title =>"Pretty cool", :name => 'Pretty cool') %>
+  </li>
+
+  <li><%= link_to("5", service_ratings_path(rateable, {:rating => 5}), :method => :post,
+          :class => 'five-stars', :title =>"Awesome", :name => 'Awesome') %>
+  </li>
+  <li class="current-rating" style="width:<%= rateable.rate_avg(20) %>%;"></li>
+</ul>
+<%= rateable.rate_avg(1) %> stars after <%= pluralize(rateable.ratings_count, "rating") %>
+
+<div id="your_rate">
+  <% if current_user && current_user.rater_rated(rateable) %>
+    You rated: <%= current_user.rater_rated(rateable) %>
+  <% else %>
+    Rate this item now.
+  <% end %>
+</div>
+

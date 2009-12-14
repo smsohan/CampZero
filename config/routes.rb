@@ -7,6 +7,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :services do |service|
     service.resources :attached_files, :only => [:new, :create]
+    service.resources :ratings
   end
 
   map.resources :attached_files

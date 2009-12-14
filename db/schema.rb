@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091213063718) do
+ActiveRecord::Schema.define(:version => 20091214211751) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -19,6 +19,19 @@ ActiveRecord::Schema.define(:version => 20091213063718) do
     t.integer  "file_file_size"
     t.datetime "file_updated_at"
   end
+
+  create_table "ratings", :force => true do |t|
+    t.integer  "rating",        :default => 0
+    t.integer  "rateable_id",                  :null => false
+    t.string   "rateable_type",                :null => false
+    t.integer  "rater_id"
+    t.string   "rater_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "ratings", ["rateable_id", "rateable_type"], :name => "fk_rateables"
+  add_index "ratings", ["rater_id", "rater_type"], :name => "fk_raters"
 
   create_table "service_categories", :force => true do |t|
     t.string   "name"

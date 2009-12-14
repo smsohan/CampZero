@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   ADMIN = 'admin'
   acts_as_authentic
+  acts_as_rater
   has_many :services
 
   validates_presence_of :name

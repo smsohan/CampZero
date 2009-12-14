@@ -30,7 +30,7 @@ class ApplicationController < ActionController::Base
 
   def login_required
     unless current_user.present?
-      flash[:error] = 'Sorry! You can enter this page after you login!'
+      flash[:error] = 'Sorry! You need to login to peform the indended action!'
       redirect_to root_path
       return false
     end

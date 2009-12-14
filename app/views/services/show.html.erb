@@ -1,4 +1,8 @@
+<% rating_stars :generate_css => true %>
 <% title @service.title || "Service" %>
+
+<%= render :partial => 'ratings/rating', :locals => { :rateable => @service } %>
+
 
 <p>
   <strong>Service Category:</strong>

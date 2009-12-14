@@ -44,6 +44,7 @@ doc\:plugins=Generate documentation for all installed plugins
 doc\:plugins\:acts_as_tree=Generate documentation for the acts_as_tree plugin
 doc\:plugins\:paperclip=Generate documentation for the paperclip plugin
 doc\:plugins\:thinking-sphinx=Generate documentation for the thinking-sphinx plugin
+doc\:plugins\:will_paginate=Generate documentation for the will_paginate plugin
 doc\:rails=Build the RDOC HTML Files
 doc\:reapp=Force a rebuild of the RDOC files
 doc\:rerails=Force a rebuild of the RDOC files
