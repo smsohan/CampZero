@@ -26,7 +26,7 @@ class Service < ActiveRecord::Base
   def self.search_by_text(query, page = 1)
     services = []
     begin
-      services = Service.search(query, :match_mode => :any).compact.paginate(:page => page, :per_page => PER_PAGE)
+      services = Service.search(query).compact.paginate(:page => page, :per_page => PER_PAGE)
     rescue Exception => error
       logger.error("Exception in service search for #{error.message} at #{error.backtrace.join}")
     end

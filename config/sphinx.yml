@@ -1,6 +1,8 @@
 development:
   bin_path: '/usr/local/bin'
+  morphology: stem_en
 staging:
   bin_path: '/usr/local/bin'
+  morphology: stem_en
 production:
   bin_path: '/usr/local/bin'
