@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :comments
+
   map.resources :user_sessions
 
   map.resources :users do |user|
@@ -8,6 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :services do |service|
     service.resources :attached_files, :only => [:new, :create]
     service.resources :ratings
+    service.resources :comments
   end
 
   map.resources :attached_files

@@ -1,0 +1,21 @@
+<% unless current_user %>
+  Please <%= link_to 'login', login_path %> to write your feedback.
+<% else %>
+  <% form_for(@comment, service_comments_path(service)) do |f| %>
+    <%= f.hidden_field :commentable_id %>
+    <%= f.hidden_field :commentable_type %>
+    <%= f.error_messages %>
+    <p>
+      <%= f.label :title %><br />
+      <%= f.text_field :title %>
+    </p>
+    <p>
+      <%= f.label :comment %><br />
+      <%= f.text_area :comment, :rows => 4, :style=>'width: 30%' %>
+    </p>
+    <p>
+      <%= f.submit 'Create' %>
+    </p>
+  <% end %>
+<% end %>
+

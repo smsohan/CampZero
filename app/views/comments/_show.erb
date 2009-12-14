@@ -1,0 +1,11 @@
+<div class="comment">
+  <% if comment.commentable.rated_by? comment.user %>
+  <ul class="star-rating">
+     <li class="current-rating" style="width:<%= comment.user.rater_rated(comment.commentable) * 20 %>%;"></li>
+  </ul>
+  <%end%>
+  <p class="comment-title"><%= comment.title %></p>
+  <p class="comment-body"><%= comment.comment %></p>
+  <p class="comment-user"><%="-- #{comment.user.name}"if comment.user %></p>
+</div>
+

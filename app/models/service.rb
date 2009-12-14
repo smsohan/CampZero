@@ -11,6 +11,7 @@ class Service < ActiveRecord::Base
   after_create :generate_permalink
 
   acts_as_rateable
+  acts_as_commentable
 
   define_index do
     indexes title

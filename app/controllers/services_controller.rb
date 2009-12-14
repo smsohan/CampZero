@@ -20,6 +20,7 @@ class ServicesController < ApplicationController
   
   def show
     @service = Service.find(params[:id])
+    @comment = @service.comments.new()
   end
   
   def new

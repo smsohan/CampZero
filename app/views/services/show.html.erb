@@ -32,3 +32,14 @@
     <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %>
   <%end%>
 </p>
+
+<h2>Customer feedbacks</h2>
+<%= render :partial => 'comments/show', :collection => @service.comments, :as => :comment %>
+
+<% unless current_user == @service.user %>
+  <h2>Add your feedback</h2>
+  <% if current_user %>
+    <%= render :partial => 'ratings/rating', :locals => { :rateable => @service } %>
+  <% end %>
+  <%= render :partial => 'comments/form', :locals => {:service => @service} %>
+<% end %>
