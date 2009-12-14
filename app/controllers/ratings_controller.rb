@@ -7,6 +7,7 @@ class RatingsController < ApplicationController
       flash[:error] = 'Sorry! You cannot rate your own ad!'
     else
       current_user.rate service, params[:rating]
+      flash[:notice] = 'Thank you for rating the ad.'
     end
     redirect_to :back
   end
