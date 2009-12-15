@@ -31,7 +31,7 @@ class ApplicationController < ActionController::Base
   def login_required
     unless current_user.present?
       flash[:error] = "Sorry! You need to <a href=#{login_path}>login</a> to peform the indended action!"
-      redirect_to root_path
+      redirect_to login_path
       return false
     end
   end
@@ -39,7 +39,7 @@ class ApplicationController < ActionController::Base
   def admin_required
     unless admin?
       flash[:error] = 'Sorry! Only admin can see this page!'
-      redirect_to root_path
+      redirect_to login_path
       return false
     end
   end
