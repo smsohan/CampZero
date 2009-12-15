@@ -20,6 +20,7 @@ class Service < ActiveRecord::Base
     has user_id
     has service_category_id
     has created_at
+    indexes service_category(:name), :as => :category
     indexes user(:name), :as => :provider
     set_property :delta => true
   end
