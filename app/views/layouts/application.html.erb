@@ -26,29 +26,24 @@
         <br />
         Service.Delivered!
 
-        <% if current_user %>
-          <div class="menu-item">
-            <%= link_to 'Logout', user_session_path(current_user), :method => :delete %>
-          </div>
-          <div class="menu-item">
-            <%= link_to 'My account', edit_user_path(current_user) %>
-          </div>
-          <div class="menu-item">
-            <%= link_to 'My ads', user_services_path(current_user) %>
-          </div>
-          <div class="menu-item">
-            <%= link_to 'Place New ad', new_service_path %>
-          </div>
-        <%else%>
-          <div class="menu-item">
-            <%= link_to 'Login', new_user_path %>
-          </div>
-        <% end %>
-        <% if controller_name != 'welcome' %>
-          <div class="menu-item">
-            <%= link_to 'Home', root_path %>
-          </div>
-        <%end%>
+
+        <div class="menu-item">
+
+          <ul>
+            <% if controller_name != 'welcome' %>
+              <li><%= link_to 'Home', root_path %></li>
+            <%end%>
+            <li><%= link_to 'Place New ad', new_service_path %></li>
+            <% if current_user %>
+              <li><%= link_to 'My ads', user_services_path(current_user) %></li>
+              <li><%= link_to 'My account', edit_user_path(current_user) %></li>
+              <li><%= link_to 'Logout', user_session_path(current_user), :method => :delete %></li>
+            <%else%>
+              <li><%= link_to 'Login', new_user_path %></li>
+            <% end %>
+          </ul>
+        </div>
+
       </div>
     </div>
     <div id="container">
