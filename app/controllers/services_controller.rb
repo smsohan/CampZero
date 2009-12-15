@@ -8,7 +8,7 @@ class ServicesController < ApplicationController
     elsif params[:service_category_id]
       service_category = ServiceCategory.find params[:service_category_id]
       @services = service_category.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
-      @title = "#{service_category.name} Services"
+      @title = "#{service_category.name} Service Providers in Bangladesh"
     elsif params[:user_id]
       user = User.find params[:user_id]
       @services = user.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
