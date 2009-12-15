@@ -14,11 +14,7 @@ class ServiceCategoriesController < ApplicationController
   # GET /service_categories/1.xml
   def show
     @service_category = ServiceCategory.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @service_category }
-    end
+    redirect_to service_category_services_path(@service_category)
   end
 
   # GET /service_categories/new
