@@ -13,7 +13,10 @@
     </div>
     <div style="width: 80%; float: right;">
       <span style="font-weight: bold">
-        <%= link_to service.title, service_path(service) %>
+        <%= link_to service.title, service_path(service) %> 
+        <% if service.user %>
+        <i style="font-weight: normal;">by </i> <%= link_to service.user.name, user_services_path(service.user) %>
+        <%end%>
         <%= render :partial => 'ratings/rating', :locals => { :rateable => service } %>
         <% if current_user == service.user %>
           (
