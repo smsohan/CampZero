@@ -64,14 +64,14 @@ a {
     background-color: #222222;
     color: #DFB946;
     padding: 1em;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 1.5em;
     font-family: Georgia, Helvetica, Arial, Verdana;
 }
 
 #container #categories li
 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding-bottom: 3px;
 }
 
@@ -89,7 +89,7 @@ a {
 #container #categories h1
 {
     color: #FFFFFF;
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-family: Helvetica, Arial, Verdana;
 }
 
