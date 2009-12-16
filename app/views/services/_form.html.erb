@@ -10,19 +10,19 @@
     <% f.fields_for :user do |user_fields| %>
       <%= user_fields.error_messages %>
       <p>
-        <%= user_fields.label :name, 'Full Name' %><br />
+        <strong><%= user_fields.label :name, 'Full Name' %></strong><br />
         <%= user_fields.text_field :name %>
       </p>
       <p>
-        <%= user_fields.label :email %><br />
+        <strong><%= user_fields.label :email %></strong><br />
         <%= user_fields.text_field :email %>
       </p>
       <p>
-        <%= user_fields.label :password %><br />
+        <strong><%= user_fields.label :password %></strong><br />
         <%= user_fields.password_field :password %>
       </p>
       <p>
-        <%= user_fields.label :password_confirmation %><br />
+        <strong><%= user_fields.label :password_confirmation %></strong><br />
         <%= user_fields.password_field :password_confirmation %>
       </p>
     <% end %>
