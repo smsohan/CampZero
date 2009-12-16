@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
   ADMIN = 'admin'
   acts_as_authentic
   acts_as_rater
-  has_many :services
+  has_many :services, :dependent => :destroy
 
   validates_presence_of :name
 
