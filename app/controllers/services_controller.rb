@@ -1,5 +1,5 @@
 class ServicesController < ApplicationController
-  before_filter :login_required, :only => [:new, :create, :edit, :update, :destroy]
+  before_filter :login_required, :only => [:edit, :update, :destroy]
 
   def index
     if params[:query]
@@ -7,7 +7,8 @@ class ServicesController < ApplicationController
       @title = "Services containing \"#{params[:query]}\""
     elsif params[:service_category_id]
       service_category = ServiceCategory.find params[:service_category_id]
-      @services = service_category.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
+      @services = Service.search_by_category_id(params[:service_category_id], params[:page])
+      #        service_category.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
       @title = "#{service_category.name} Service Providers in Bangladesh"
     elsif params[:user_id]
       user = User.find params[:user_id]
@@ -25,17 +26,30 @@ class ServicesController < ApplicationController
   
   def new
     @service = Service.new
-    @service.attached_files.build
-    @service.attached_files.build
-    @service.attached_files.build
+    @service.initialize_attached_files
+    @service.user = User.new unless current_user
   end
   
   def create
     clean_empty_attached_file_attributes
     @service = Service.new(params[:service])
-    @service.user = current_user
+    unless current_user
+      begin
+        service_provider = User.login_or_create params[:service][:user_attributes]
+      rescue Exception => ex
+        flash[:error] = ex.message
+        @service.initialize_attached_files
+        render :new
+        return
+      end
+      @service.user = service_provider
+      @service.active = service_provider.active?
+    else
+      @service.user = current_user
+    end
     if @service.save
       flash[:notice] = "Successfully created service."
+      flash[:notice] += ' Please check email to activate your account' unless @service.active?
       redirect_to @service
     else
       render :action => 'new'

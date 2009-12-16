@@ -4,6 +4,31 @@
 
 <% form_for @service, :html => {:multipart => true} do |f| %>
   <%= f.error_messages %>
+
+  <% unless current_user %>
+    Please <%= link_to 'login', login_path %> if you have an account with CampZero.com
+    <% f.fields_for :user do |user_fields| %>
+      <%= user_fields.error_messages %>
+      <p>
+        <%= user_fields.label :name, 'Full Name' %><br />
+        <%= user_fields.text_field :name %>
+      </p>
+      <p>
+        <%= user_fields.label :email %><br />
+        <%= user_fields.text_field :email %>
+      </p>
+      <p>
+        <%= user_fields.label :password %><br />
+        <%= user_fields.password_field :password %>
+      </p>
+      <p>
+        <%= user_fields.label :password_confirmation %><br />
+        <%= user_fields.password_field :password_confirmation %>
+      </p>
+    <% end %>
+  <%end%>
+
+
   <p>
     <strong><%= f.label :service_category_id %></strong><br />
     <%= f.select :service_category_id, option_groups_from_collection_for_select(ServiceCategory.roots, :children, :name, :id, :name), :prompt => true %>

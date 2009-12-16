@@ -7,11 +7,15 @@ class Service < ActiveRecord::Base
   belongs_to :user
 
   accepts_nested_attributes_for :attached_files
+  accepts_nested_attributes_for :user
 
-  after_create :generate_permalink
+  after_create :generate_permalink, :send_activation_email
 
   acts_as_rateable
   acts_as_commentable
+
+
+    
 
   define_index do
     indexes title
@@ -22,13 +26,24 @@ class Service < ActiveRecord::Base
     has created_at
     indexes service_category(:name), :as => :category
     indexes user(:name), :as => :provider
+    has :active
     set_property :delta => true
   end
 
   def self.search_by_text(query, page = 1)
     services = []
     begin
-      services = Service.search(query).compact.paginate(:page => page, :per_page => PER_PAGE)
+      services = Service.search(query, :with => {:active => true}).compact.paginate(:page => page, :per_page => PER_PAGE)
+    rescue Exception => error
+      logger.error("Exception in service search for #{error.message} at #{error.backtrace.join}")
+    end
+    return services.compact || [].paginate(:page => page, :per_page => PER_PAGE)
+  end
+
+  def self.search_by_category_id(category_id, page = 1, query = '')
+    services = []
+    begin
+      services = Service.search(query, :with => {:service_category_id => category_id, :active => true}).compact.paginate(:page => page, :per_page => PER_PAGE)
     rescue Exception => error
       logger.error("Exception in service search for #{error.message} at #{error.backtrace.join}")
     end
@@ -39,12 +54,31 @@ class Service < ActiveRecord::Base
     self.permalink || self.id.to_s
   end
 
+  def activate!
+    self.active = true
+    self.save!
+  end
+
+  def initialize_attached_files
+    self.attached_files.build
+    self.attached_files.build
+    self.attached_files.build
+    self.attached_files.build
+  end
+
+
   protected
   def generate_permalink
     self.permalink = self.id.to_s + '-' + self.user.name + '-' + self.title
     self.permalink = self.permalink.gsub(/[^[:alnum:]]/, ' ').strip.gsub(/\W(\W)*/, '-')
     self.permalink = self.permalink[0..50].downcase
     self.save!
+  end
+
+  def send_activation_email
+    if self.user && !self.user.active?
+      self.user.deliver_activation_instructions!
+    end
   end
   
 end
