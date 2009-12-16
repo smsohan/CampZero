@@ -7,7 +7,7 @@ class ServicesController < ApplicationController
       @title = "Services containing \"#{params[:query]}\""
     elsif params[:service_category_id]
       service_category = ServiceCategory.find params[:service_category_id]
-      @services = Service.search_by_category_id(params[:service_category_id], params[:page])
+      @services = Service.search_by_category_id(service_category.id, params[:page])
       #        service_category.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
       @title = "#{service_category.name} Service Providers in Bangladesh"
     elsif params[:user_id]
