@@ -47,13 +47,7 @@
       </div>
     </div>
     <div id="container">
-      <div id="search_box" style="width: 100%; text-align: center; margin-bottom: 1em; vertical-align: middle;">
-        <% form_tag services_path, :method => :get do |f| %>
-          <%= text_field_tag 'query', '', :size => 40, :style => 'font-size: 1.3em;' %>
-          <button type="submit" style = 'font-size: 1.3em;'> Search</button>
-        <% end %>
-
-      </div>
+      <%= render :partial => 'layouts/search_box' %>
 
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
