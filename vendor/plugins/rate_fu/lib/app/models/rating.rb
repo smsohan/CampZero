@@ -13,5 +13,9 @@ class Rating < ActiveRecord::Base
 
   # Uncomment this to limit users to a single rating on each item. 
   # validates_uniqueness_of :rateable_id, :scope => [:rateable_type, :rater_type, :rater_id]
-
+  def after_save
+    if rateable.respond_to? :after_rate
+      rateable.after_rate
+    end
+  end
 end
