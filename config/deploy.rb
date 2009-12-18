@@ -29,12 +29,5 @@ task :staging do
       thinking_sphinx.rebuild
     end
     
-    #desc "Symlink the pictures directory"
-    #task :after_update_code, :roles => :app do
-    #  run "ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    #  run "mkdir -p #{shared_path}/assets; ln -s #{shared_path}/assets #{release_path}/assets"
-    #  run "cd #{current_path} &&" + "RAILS_ENV=#{rails_env} rake ts:config"
-    #  run "cd #{current_path} &&" + "RAILS_ENV=#{rails_env} rake ts:in"
-    #end
   end
 end
