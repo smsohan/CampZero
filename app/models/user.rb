@@ -52,7 +52,7 @@ class User < ActiveRecord::Base
       return user
     end
 
-    raise Exception.new "Invalid user credentials #{@user.error_messages}"
+    raise Exception.new "Invalid user credentials <br /> #{user.errors.full_messages.join("<br />")}"
     
   end
   
