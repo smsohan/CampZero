@@ -21,5 +21,5 @@ class ActivationsController < ApplicationController
     end
     
   end
-
+  
 end

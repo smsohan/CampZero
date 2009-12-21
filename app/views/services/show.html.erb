@@ -2,7 +2,7 @@
 <% title @service.title || "Service" %>
 
 <%= render :partial => 'ratings/rating', :locals => { :rateable => @service } %>
-
+Total <%= @service.visit_count > 1 ? "#{@service.visit_count} visits" : "#{@service.visit_count} visit" %> 
 
 <p>
   <strong>Service Category:</strong>

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091217171812) do
+ActiveRecord::Schema.define(:version => 20091221191928) do
 
   create_table "attached_files", :force => true do |t|
     t.integer  "service_id",        :null => false
@@ -33,6 +33,19 @@ ActiveRecord::Schema.define(:version => 20091217171812) do
   add_index "comments", ["commentable_id"], :name => "index_comments_on_commentable_id"
   add_index "comments", ["commentable_type"], :name => "index_comments_on_commentable_type"
   add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+
+  create_table "delayed_jobs", :force => true do |t|
+    t.integer  "priority",   :default => 0
+    t.integer  "attempts",   :default => 0
+    t.text     "handler"
+    t.text     "last_error"
+    t.datetime "run_at"
+    t.datetime "locked_at"
+    t.datetime "failed_at"
+    t.string   "locked_by"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "ratings", :force => true do |t|
     t.integer  "rating",        :default => 0
@@ -86,6 +99,7 @@ ActiveRecord::Schema.define(:version => 20091217171812) do
     t.string   "permalink"
     t.boolean  "active",              :default => true
     t.float    "average_rating"
+    t.integer  "visit_count",         :default => 0
   end
 
   create_table "users", :force => true do |t|

@@ -14,8 +14,8 @@ class User < ActiveRecord::Base
 
   def deliver_activation_instructions!
     reset_perishable_token!
+    
     email = Notifier.deliver_activation_instructions(self)
-    logger.debug email.inspect
   end
 
 

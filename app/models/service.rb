@@ -75,7 +75,7 @@ class Service < ActiveRecord::Base
       self.save!
     end
   end
-  
+    
   protected
   def generate_permalink
     self.permalink = self.id.to_s + '-' + self.user.name + '-' + self.title
@@ -89,5 +89,5 @@ class Service < ActiveRecord::Base
       self.user.deliver_activation_instructions!
     end
   end
-  
+    
 end

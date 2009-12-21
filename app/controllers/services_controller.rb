@@ -20,6 +20,7 @@ class ServicesController < ApplicationController
   
   def show
     @service = Service.find(params[:id])
+    @service.increment! :visit_count
     @comment = @service.comments.new()
   end
   
