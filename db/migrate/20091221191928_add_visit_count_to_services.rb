@@ -3,7 +3,7 @@ class AddVisitCountToServices < ActiveRecord::Migration
     add_column :services, :visit_count, :integer, :default => 0
   end
 
-  def self.down
-    remove_column :services, :visit_count
+  def self.down 
+    remove_column :services, :visit_count 
   end
 end

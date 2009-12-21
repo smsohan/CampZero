@@ -1,6 +1,11 @@
 <% rating_stars :generate_css => true %>
 <% title @service.title || "Service" %>
 
+<% content_for :head do%>
+	<meta name="description" content="CampZero provides easy access to service providers like car rentals, transport needs, office space rent, catering, ambulance and similar kinds in Bangladesh for both corporate and household needs. <%=" #{@service.title} #{@service.service_category.name}"  %> Service.">	
+<%end%>
+
+
 <%= render :partial => 'ratings/rating', :locals => { :rateable => @service } %>
 Total <%= @service.visit_count > 1 ? "#{@service.visit_count} visits" : "#{@service.visit_count} visit" %> 
 

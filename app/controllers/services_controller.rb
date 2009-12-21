@@ -6,9 +6,9 @@ class ServicesController < ApplicationController
       @services = Service.search_by_text params[:query], params[:page]
       @title = "Services containing \"#{params[:query]}\""
     elsif params[:service_category_id]
-      service_category = ServiceCategory.find params[:service_category_id]
-      @services = Service.search_by_category_id(service_category.id, params[:page], params[:query] || '')
-      @title = "#{service_category.name} Service Providers in Bangladesh"
+      @service_category = ServiceCategory.find params[:service_category_id]
+      @services = Service.search_by_category_id(@service_category.id, params[:page], params[:query] || '')
+      @title = "#{@service_category.name} Service Providers in Bangladesh"
     elsif params[:user_id]
       user = User.find params[:user_id]
       @services = user.services.paginate :page => params[:page], :per_page => Service::PER_PAGE
