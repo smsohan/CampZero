@@ -61,7 +61,7 @@ class Service < ActiveRecord::Base
     self.active = true
     self.save!
   end
-
+  
   def initialize_attached_files
     self.attached_files.build
     self.attached_files.build

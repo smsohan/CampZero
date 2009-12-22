@@ -2,7 +2,7 @@ class ServicesController < ApplicationController
   before_filter :login_required, :only => [:edit, :update, :destroy]
 
   def index
-    if params[:query] && params[:service_category_id].blank?
+    if params[:query].present? && params[:service_category_id].blank?
       @services = Service.search_by_text params[:query], params[:page]
       @title = "Services containing \"#{params[:query]}\""
     elsif params[:service_category_id]
@@ -15,7 +15,11 @@ class ServicesController < ApplicationController
       @title = "Services by #{user.name}"
     else
       @services = Service.all.paginate :page => params[:page], :per_page => Service::PER_PAGE
+      @title = "All services"
     end
+    
+    @query_words = params[:query] ? params[:query].split(/\W/) : ''
+    
   end
   
   def show

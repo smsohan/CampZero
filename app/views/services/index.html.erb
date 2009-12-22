@@ -1,7 +1,7 @@
 <% rating_stars :generate_css => true %>
 <% title @title || "Services" %>
 <% content_for :head do%>
-	<meta name="description" content="CampZero provides easy access to service providers like car rentals, transport needs, office space rent, catering, ambulance and similar kinds in Bangladesh for both corporate and household needs. <%="#{@service_category.name}"  %> Service providers in Bangladesh.">	
+	<meta name="description" content="CampZero provides easy access to service providers like car rentals, transport needs, office space rent, catering, ambulance and similar kinds in Bangladesh for both corporate and household needs. <%="#{@service_category.name if @service_category}"  %> Service providers in Bangladesh.">	
 <%end%>
 
   
@@ -16,9 +16,9 @@
     </div>
     <div style="width: 80%; float: right;">
       <span style="font-weight: bold">
-        <%= link_to service.title, service_path(service) %> 
+        <%= link_to highlight(service.title, @query_words), service_path(service) %> 
         <% if service.user %>
-        <i style="font-weight: normal;">by </i> <%= link_to service.user.name, user_services_path(service.user) %>
+        <i style="font-weight: normal;">by </i> <%= link_to highlight(service.user.name, @query_words), user_services_path(service.user) %>
         <%end%>
         <%= render :partial => 'ratings/rating', :locals => { :rateable => service } %>
         <% if current_user == service.user %>
@@ -28,7 +28,10 @@
           )
         <% end %>
       </span>
-      <p><%= service.service_description %></p>
+      <p>
+		<%= highlight(truncate(sanitize(service.service_description, :tags => %w(br a)), :length => 200), @query_words || '') %>
+		<%= link_to "Read more", service_path(service) %>
+		</p>
     </div>
     <div class="clear"></div>
   </div>
