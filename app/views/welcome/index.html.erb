@@ -44,5 +44,7 @@
     <% unless current_user %>
     Interested? <%= link_to 'Start Here', new_user_path %>
     <% end %>
+	<br />
+	<%= render 'layouts/facebook'%>
   </div>
 </div>

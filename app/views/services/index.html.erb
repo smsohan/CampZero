@@ -1,5 +1,6 @@
 <% rating_stars :generate_css => true %>
 <% title @title || "Services" %>
+
 <% content_for :head do%>
 	<meta name="description" content="CampZero provides easy access to service providers like car rentals, transport needs, office space rent, catering, ambulance and similar kinds in Bangladesh for both corporate and household needs. <%="#{@service_category.name if @service_category}"  %> Service providers in Bangladesh.">	
 <%end%>
