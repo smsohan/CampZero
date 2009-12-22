@@ -22,6 +22,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :password_resets
 
   map.resources :activations
+  
+  map.resources :welcome, :collection => {:contact => :get}
 
   map.login '/login', :controller => 'users', :action => 'new'
 
