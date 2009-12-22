@@ -12,7 +12,7 @@ module SitemapGenerator
       :change_frequency => Options.change_frequency
     }
 
-    def initialize(filename = "#{RAILS_ROOT}/public/sitemap.xml")
+    def initialize(filename = "#{RAILS_ROOT}/#{PUBLIC_FOLDER_NAME}/sitemap.xml")
       @filename = filename
       @old_size, @new_size = File.size(@filename) rescue 0
     end
