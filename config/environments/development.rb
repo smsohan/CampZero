@@ -19,6 +19,8 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 Paperclip.options[:command_path] = '/opt/local/bin'
 
+PUBLIC_FOLDER_NAME = 'public'
+
 ActionMailer::Base.smtp_settings= { :address => 'smtp.gmail.com',
                                     :port => '587',
                                     :authentication => :plain,
