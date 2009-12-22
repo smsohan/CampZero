@@ -6,3 +6,4 @@ public/attached_files/**/*
 db/sphinx/**/*
 config/database.yml
 config/staging.sphinx.conf
+public/sitemap.xml

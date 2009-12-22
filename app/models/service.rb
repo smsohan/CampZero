@@ -1,4 +1,6 @@
 class Service < ActiveRecord::Base
+  sitemap
+
   PER_PAGE = 10
   has_many :attached_files, :dependent => :destroy
 
