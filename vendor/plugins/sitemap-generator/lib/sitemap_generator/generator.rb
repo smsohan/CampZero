@@ -26,9 +26,10 @@ module SitemapGenerator
         # Get the class from the filename
         model = file.split('/').last[0..-4].classify.constantize
         # Skip classes that don't have any sitemap options
-        next if !model.methods.include?('sitemap_options') || model.sitemap_options == nil
-
-        models << model
+        if((model.methods.include?(:sitemap_options) || model.methods.include?('sitemap_options')) && model.sitemap_options != nil)
+          models << model          
+        end
+        #next if !model.methods.include?(:sitemap_options) || !model.methods.include?('sitemap_options') || model.sitemap_options == nil
       end
 
       puts "Sitemap WARNING!! No models found. Have you included a call to the sitemap in your ActiveRecord models?" if models.empty?
