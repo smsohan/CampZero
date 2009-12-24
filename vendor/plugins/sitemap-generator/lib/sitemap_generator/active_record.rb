@@ -5,7 +5,7 @@ module SitemapGenerator
       base.class_eval do
         include InstanceMethods
         extend ClassMethods
-        puts "included here"
+
         class_inheritable_accessor :sitemap_options
       end
     end
