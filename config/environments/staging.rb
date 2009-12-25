@@ -32,7 +32,7 @@ config.action_mailer.default_url_options = { :host => 'www.campzero.com' }
 ActionMailer::Base.smtp_settings= { :address => 'smtp.gmail.com',
                                     :port => '587',
                                     :authentication => :plain,
-                                    :user_name => 'NoReply.CampZero@gmail.com',
+                                    :user_name => 'do-not-reply@campzero.com',
                                     :password => 'ameera6786',
                                     :enable_starttls_auto => true,
                                     :tls => true

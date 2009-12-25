@@ -10,7 +10,7 @@ class PasswordResetsController < ApplicationController
     if(@user)
       @user.deliver_password_reset_instructions!
       flash[:notice] = 'Please check your email for password reset instruction.'
-      render :action=>:new
+      redirect_to root_path
     else
       flash[:error] = 'Please provide email address of your existing account to reset the password.'
       @user = User.new :email => params[:email]
@@ -28,8 +28,8 @@ class PasswordResetsController < ApplicationController
     @user.password = params[:user][:password]
     @user.password_confirmation = params[:user][:password_confirmation]
 
-    unless(@user.save)
-      flash[:error] = 'The password reset operation failed. Please try again later.'
+    if(@user.password.blank? || !@user.save)
+      flash[:error] = 'The password reset operation failed. Please try with valid password.'
       render :action => :edit
       return
     end

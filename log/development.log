@@ -8645,3 +8645,1904 @@ DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in
   [4;36;1mService Load (1.1ms)[0m   [0;1mSELECT * FROM `services` ORDER BY updated_at ASC LIMIT 5000[0m
   [4;35;1mServiceCategory Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
   [4;36;1mServiceCategory Load (0.5ms)[0m   [0;1mSELECT * FROM `service_categories` ORDER BY updated_at ASC LIMIT 5000[0m
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mService Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mService Load (1.0ms)[0m   [0;1mSELECT * FROM `services` ORDER BY updated_at ASC LIMIT 5000[0m
+  [4;35;1mServiceCategory Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `service_categories` ORDER BY updated_at ASC LIMIT 5000[0m
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:07:32) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.5ms)
+Rendered layouts/_search_box (6.5ms)
+Completed in 142ms (View: 131, DB: 4) | 200 OK [http://localhost/]
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mRating Update (69.3ms)[0m   [0;1mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 30) AND (rater_type = 'User')) [0m
+  [4;35;1mService Load (0.4ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.user_id = 30) [0m
+  [4;36;1mService Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+  [4;35;1mAttachedFile Load (11.7ms)[0m   [0mSELECT * FROM `attached_files` WHERE (`attached_files`.service_id = 28) [0m
+  [4;36;1mAttachedFile Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `attached_files`[0m
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/23/original/041008_iphoneDJ2.jpg
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/23/small/041008_iphoneDJ2.jpg
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/23/medium/041008_iphoneDJ2.jpg
+  [4;35;1mAttachedFile Destroy (0.3ms)[0m   [0mDELETE FROM `attached_files` WHERE `id` = 23[0m
+[paperclip] Deleting attachments.
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/24/original/3121934572_e9db6aace1.jpg
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/24/small/3121934572_e9db6aace1.jpg
+[paperclip] deleting /Users/smsohan/CampZero/public/attached_files/24/medium/3121934572_e9db6aace1.jpg
+  [4;36;1mAttachedFile Destroy (0.3ms)[0m   [0;1mDELETE FROM `attached_files` WHERE `id` = 24[0m
+  [4;35;1mRating Update (0.5ms)[0m   [0mUPDATE `ratings` SET rateable_id = NULL WHERE ((rateable_id = 28) AND (rateable_type = 'Service')) [0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.commentable_id = 28 AND `comments`.commentable_type = 'Service') ORDER BY created_at ASC[0m
+  [4;35;1mSQL (130.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mService Destroy (0.3ms)[0m   [0;1mDELETE FROM `services` WHERE `id` = 28[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.018933s)[0m   [0mFound 0 results[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.002952s)[0m   [0mFound 1 results[0m
+  [4;35;1mUser Destroy (0.6ms)[0m   [0mDELETE FROM `users` WHERE `id` = 30[0m
+  [4;36;1mSQL (23.2ms)[0m   [0;1mCOMMIT[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.002563s)[0m   [0mFound 0 results[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.025345s)[0m   [0mFound 0 results[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:08:49) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (7.3ms)
+Rendered user_sessions/_new (20.5ms)
+Rendered layouts/_search_box (0.8ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 112ms (View: 97, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:09:02) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '101fdf5c708c7a7fa1d6158c5d169783539eef35e9ffa4128aaa04186fcc691c900c2b62083580ddfd1fe3a7df5c1187d4563439f06103d11cc21d99cd451f57') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:09:03', '168b535882820f2936e3030f392739f12294632fa6bb9e34293f2beea8e01e850eee121ae2dc3dade9c4fed95bcdfb6dcd7446672fb507ce7e4e940123ea2df3', 'GD9BovTYSIWCcS1POZPz', '2009-12-25 19:09:03', 'service_provider', 'gIgaknM2lC1PMs9Ks8ja', '101fdf5c708c7a7fa1d6158c5d169783539eef35e9ffa4128aaa04186fcc691c900c2b62083580ddfd1fe3a7df5c1187d4563439f06103d11cc21d99cd451f57', 'sohan39@yahoo.com', NULL)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:09:03', `perishable_token` = 'AoNue5EaWMt0MS3E20DG' WHERE `id` = 31[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:09:03 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>CampZero.com email notification%></title>
+    <link href="/stylesheets/application.css?1261458658" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="/" class="title">CampZero.com</a> <i><sup>alpha</sup></i>
+        <br />
+        Service.Delivered!
+      </div>
+    </div>
+    <div id="container">
+      Thank you for signing up with CampZero.com.
+Please click on the following link to complete the signup process.
+http://localhost:3000/activations/new?id=AoNue5EaWMt0MS3E20DG
+
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      &copy; CampZero.com - All rights reserved.
+    </div>
+  </body>
+</html>
+Redirected to http://localhost:3000/
+Completed in 2353ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:09:05) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.7ms)
+Completed in 30ms (View: 20, DB: 5) | 200 OK [http://localhost/]
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 31) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 31) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 31[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:11:37) [GET]
+  [4;36;1mUser Columns (46.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.9ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 69ms (View: 12, DB: 47) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:11:51) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '5ac880b0822e8a22d736325dc7581a63253fa1a6e2ea0ec88ec939da540d624176548f3a26c441a321814f64ec74d487bb35b25d7eb34f719366aa9c6c074e74') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:11:51', '7bb296e9d5e4a3c862a40903447da87530dfcf42bf4eab23fdbe80340834d69a4364cf87ba11ca60e4af7d51fa395d958249235037d3e93301ed3945b744001c', 'CPZOJMOqxCz4YBGfhZIj', '2009-12-25 19:11:51', 'service_provider', 'UISyOjUSiZx7XHhCdYL2', '5ac880b0822e8a22d736325dc7581a63253fa1a6e2ea0ec88ec939da540d624176548f3a26c441a321814f64ec74d487bb35b25d7eb34f719366aa9c6c074e74', 'sohan39@yahoo.com', NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:11:51', `perishable_token` = 'B6dPGTf4enlnAuumP75h' WHERE `id` = 32[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:11:51 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>CampZero.com email notification%></title>
+    <link href="/stylesheets/application.css?1261458658" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="/" class="title">CampZero.com</a> <i><sup>alpha</sup></i>
+        <br />
+        Service.Delivered!
+      </div>
+    </div>
+    <div id="container">
+      Thank you for signing up with CampZero.com.
+Please click on the following link to complete the signup process.
+http://localhost:3000/activations/new?id=B6dPGTf4enlnAuumP75h
+
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      &copy; CampZero.com - All rights reserved.
+    </div>
+  </body>
+</html>
+Redirected to http://localhost:3000/
+Completed in 1612ms (DB: 4) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:11:53) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.8ms)
+Completed in 34ms (View: 21, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 32) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 32) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 32[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:13:13) [GET]
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.2ms)
+Rendered user_sessions/_new (3.1ms)
+Rendered layouts/_search_box (0.8ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 31ms (View: 14, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:13:29) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'fdef326a5bffba9ba017eed8b0fee64be90a87fb9cd3a280c90fc935ea41b01e78e0f3a7b6f982f712ead2da52000230cf307d1172da53e2f9c6da97060c38d1') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:13:29', 'c9ac6134f4ad2c0b6c48274c3d74d41a1f45a89af0e60eb4b746e093f0ff2f1bdb290a5779943cd84c08c032392077ac1b4f6918b65b9db68abf29fed5dd178a', '8q_t1X0NPYPp_jRPYiUr', '2009-12-25 19:13:29', 'service_provider', 'CTEpq8xnSFdGiGNhQXJI', 'fdef326a5bffba9ba017eed8b0fee64be90a87fb9cd3a280c90fc935ea41b01e78e0f3a7b6f982f712ead2da52000230cf307d1172da53e2f9c6da97060c38d1', 'sohan39@yahoo.com', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:13:29', `perishable_token` = 'SXg2Wyl-Y1an4zJaPXtW' WHERE `id` = 33[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:13:29 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>CampZero.com email notification%></title>
+    <link href="/stylesheets/application.css?1261458658" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="/" class="title">CampZero.com</a> <i><sup>alpha</sup></i>
+        <br />
+        Service.Delivered!
+      </div>
+    </div>
+    <div id="container">
+      Thank you for signing up with CampZero.com.
+Please click on the following link to complete the signup process.
+http://localhost:3000/activations/new?id=SXg2Wyl-Y1an4zJaPXtW
+
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      &copy; CampZero.com - All rights reserved.
+    </div>
+  </body>
+</html>
+Redirected to http://localhost:3000/
+Completed in 1460ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:13:30) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 30ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 33) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 33) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 33[0m
+  [4;36;1mSQL (23.1ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:26:03) [GET]
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.9ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:26:09) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.3ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 25ms (View: 12, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:26:16) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.7ms)
+Completed in 29ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:26:18) [GET]
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.6ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:26:30) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '0019f175f46556bddcd9dbfa988b002a173f5cd5413dea9dc0d8c5719953d3e4eb8c0f4ec148ad8e7564f4165e5c3684efd1f1a28cebf3d3d696698b0926ec0b') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:26:30', '55ca15e4f1238542e38698134120fba499a8d1f57dfa80ed92ea13d6246dfb0b820e234b84af0e2f746d44bb05651f004cf65b942fa6600c27811cbba41bb2ba', 'FND09IYIe0aNCZ4HAToQ', '2009-12-25 19:26:30', 'service_provider', 'AEthlcZjt-7aGiwFDSsm', '0019f175f46556bddcd9dbfa988b002a173f5cd5413dea9dc0d8c5719953d3e4eb8c0f4ec148ad8e7564f4165e5c3684efd1f1a28cebf3d3d696698b0926ec0b', 'sohan39@yahoo.com', NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:26:30', `perishable_token` = 'P0fzndMFzAPYRmZRbHTp' WHERE `id` = 34[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:26:30 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello S. M. Sohan:
+Welcome to CampZero.com service providers network of Bangladesh. To activate your account please click on the following link:
+http://localhost:3000/activations/new?id=P0fzndMFzAPYRmZRbHTp
+However, if you have any problem with this, please copy and paste the URL to your browser.
+If, by any chance, you received this email but don't actually intent to signup at CampZero.com, please disregard this email.
+
+
+
+
+--
+With regards from
+<strong>CampZero.com</strong>
+Service.Delivered!
+Find the best service providers in Bangladesh.
+Redirected to http://localhost:3000/
+Completed in 1367ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:26:31) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.8ms)
+Completed in 102ms (View: 90, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#new (for 127.0.0.1 at 2009-12-25 12:27:02) [GET]
+  Parameters: {"id"=>"P0fzndMFzAPYRmZRbHTp"}
+  [4;36;1mUser Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'P0fzndMFzAPYRmZRbHTp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering activations/new
+Rendered layouts/_search_box (0.7ms)
+Completed in 100ms (View: 83, DB: 3) | 200 OK [http://localhost/activations/new?id=P0fzndMFzAPYRmZRbHTp]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#create (for 127.0.0.1 at 2009-12-25 12:27:05) [POST]
+  Parameters: {"commit"=>"Activate", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"P0fzndMFzAPYRmZRbHTp"}
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'P0fzndMFzAPYRmZRbHTp') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:27:05', `perishable_token` = 'vwWUp8DlX8OTZUmmMIl6', `active` = 1 WHERE `id` = 34[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:27:05', `perishable_token` = 'LLPmc7NAxIjH_kcEt_fl' WHERE `id` = 34[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 34) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:27:05', `perishable_token` = 's3PsiOyGvjvpcgTZGDfB' WHERE `id` = 34[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:27:05 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Completed your CampZero.com signup
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello S. M. Sohan:
+Thank you for completing the account activation with CampZero.com. If you already posted an ad, it will appear to CampZero visitors now. This activated account also lets you to post new ads, make modifications to them and rank other service providers in CampZero.com.
+Please click on the following link to complete the signup process.
+
+
+Thank you for signing up with CampZero.com.
+
+
+--
+With regards from
+<strong>CampZero.com</strong>
+Service.Delivered!
+Find the best service providers in Bangladesh.
+#<TMail::Mail port=#<TMail::StringPort:id=0x123f554> bodyport=#<TMail::StringPort:id=0x123e1b8>>
+Redirected to http://localhost:3000/
+Completed in 1269ms (DB: 6) | 302 Found [http://localhost/activations?id=P0fzndMFzAPYRmZRbHTp]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:27:06) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 35ms (View: 25, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 34) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 34) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 34[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-12-25 12:29:02) [DELETE]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"34"}
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 14ms (DB: 3) | 302 Found [http://localhost/user_sessions/34]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:29:02) [GET]
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.8ms)
+Rendered user_sessions/_new (2.3ms)
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 25ms (View: 13, DB: 2) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:29:15) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;36;1mUser Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '92189fe544b2b983357432fee199d8250c1f5ca0ed47be5fe38ceadcf72877fd29c0e0a0e8b7a9b04a2f654975f336800b87fb1bf575d04b3ebf67ffd760b5fd') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:29:15', '5fdde66c84cc7a3a0e71dc7885cfd8fb1617af62cf94a6a7be461cb9c817ed353d879671b0db3b8d4b94b5d985907a85f0c4701c255937523de6ac5c73a65929', 'KaFh1iwP8twupzhOr-cj', '2009-12-25 19:29:15', 'service_provider', 'nYk9vRmnCyTg_OtrgIWX', '92189fe544b2b983357432fee199d8250c1f5ca0ed47be5fe38ceadcf72877fd29c0e0a0e8b7a9b04a2f654975f336800b87fb1bf575d04b3ebf67ffd760b5fd', 'sohan39@yahoo.com', NULL)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:29:15', `perishable_token` = 'ZS-1jRCbvDorxxa73c8p' WHERE `id` = 35[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:29:15 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b35128bac503_201f12f7c626c3
+
+
+--mimepart_4b35128bac503_201f12f7c626c3
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello S. M. Sohan:
+Welcome to CampZero.com service providers network of Bangladesh. To activ=
+ate your account please click on the following link:
+http://localhost:3000/activations/new?id=3DZS-1jRCbvDorxxa73c8p
+However, if you have any problem with this, please copy and paste the URL=
+ to your browser.
+If, by any chance, you received this email but don't actually intent to s=
+ignup at CampZero.com, please disregard this email.
+
+
+
+--
+With regards from
+<strong>CampZero.com</strong>
+Service.Delivered!
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b35128bac503_201f12f7c626c3--
+Redirected to http://localhost:3000/
+Completed in 1246ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:29:16) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 33ms (View: 22, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 35) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 35) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 35[0m
+  [4;36;1mSQL (23.8ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:31:50) [GET]
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.0ms)
+Rendered user_sessions/_new (2.3ms)
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 26ms (View: 13, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:32:02) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"sohan39@yahoo.com"}}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'sohan39@yahoo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '8f809dc1e347de9ceb8ded65d720c3d5f7149a428a4b3a2b05bd87be30d92ec3440db552037092f850b1414deaaefb074f79aaaadcd2aed8a347fc6766ee8f39') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:32:02', '255ef694d8eb0fd722d1eb16a9b6ddfb8c08f7a9fade86b56fb136503cb2786f121d9a9f22c1fbc67c41cae924feec232645903a6e22ee967a094185ac5c6633', 'jwYCnHRuZXteIbLOQAbg', '2009-12-25 19:32:02', 'service_provider', 'GfBc8zRpy5YfAhuLINVO', '8f809dc1e347de9ceb8ded65d720c3d5f7149a428a4b3a2b05bd87be30d92ec3440db552037092f850b1414deaaefb074f79aaaadcd2aed8a347fc6766ee8f39', 'sohan39@yahoo.com', NULL)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:32:02', `perishable_token` = 'Wq7op1HmQqct0Skzn6sJ' WHERE `id` = 36[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Sent mail to sohan39@yahoo.com
+
+Date: Fri, 25 Dec 2009 12:32:02 -0700
+From: CampZero.com
+To: sohan39@yahoo.com
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b351332d7a57_201f124ada09de
+
+
+--mimepart_4b351332d7a57_201f124ada09de
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello S. M. Sohan:<br />
+<p>Welcome to CampZero.com service providers network of Bangladesh. To ac=
+tivate your account please click on the following link:
+http://localhost:3000/activations/new?id=3DWq7op1HmQqct0Skzn6sJ</p>
+<p>However, if you have any problem with this, please copy and paste the =
+URL to your browser.</p>
+<p>If, by any chance, you received this email but don't actually intent t=
+o signup at CampZero.com, please disregard this email.</p>
+
+
+
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b351332d7a57_201f124ada09de--
+Redirected to http://localhost:3000/
+Completed in 1269ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:32:04) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 33ms (View: 22, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 36) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 36) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 36[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 29) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 29) [0m
+  [4;35;1mService Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `services`[0m
+  [4;36;1mAttachedFile Load (0.4ms)[0m   [0;1mSELECT * FROM `attached_files` WHERE (`attached_files`.service_id = 27) [0m
+  [4;35;1mRating Update (0.2ms)[0m   [0mUPDATE `ratings` SET rateable_id = NULL WHERE ((rateable_id = 27) AND (rateable_type = 'Service')) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.commentable_id = 27 AND `comments`.commentable_type = 'Service') ORDER BY created_at ASC[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mService Destroy (0.3ms)[0m   [0;1mDELETE FROM `services` WHERE `id` = 27[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.002655s)[0m   [0mFound 0 results[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.002510s)[0m   [0mFound 1 results[0m
+  [4;35;1mUser Destroy (0.3ms)[0m   [0mDELETE FROM `users` WHERE `id` = 29[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.002022s)[0m   [0mFound 0 results[0m
+  [4;32;1mSphinx[0m   [0mQuerying: ''[0m
+  [4;32;1mSphinx (0.004064s)[0m   [0mFound 0 results[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:34:08) [GET]
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.8ms)
+Rendered user_sessions/_new (2.3ms)
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 26ms (View: 13, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:34:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"S. M. Sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"smsohan@ucalgary.ca"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '3c8d9724afdf68b9f548697f8418cd6bec633d4bffc2cbb724c81584fea2899fabb68a5de9a5a60bc535aca1f64772a65f36071c6a508d6d1455016aef9c4b98') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('S. M. Sohan', '2009-12-25 19:34:24', '9b1eb13a1af1251a999fbb5ab6a72ad4a1f0652fcb9fb56c3303d3a989681bd460024856658b2b41eb5b0d925e1b7c6b2a428df14b7f38bf313b989f317fd51a', 'VAWuk6EEbEL1UOVL7kS6', '2009-12-25 19:34:24', 'service_provider', '3NobnFJpwM64VVBoFbTc', '3c8d9724afdf68b9f548697f8418cd6bec633d4bffc2cbb724c81584fea2899fabb68a5de9a5a60bc535aca1f64772a65f36071c6a508d6d1455016aef9c4b98', 'smsohan@ucalgary.ca', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:34:24', `perishable_token` = 'GSQ7PxqmwI7fuhpdnAtl' WHERE `id` = 37[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:34:24 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b3513c0c58a7_201f124f940125e
+
+
+--mimepart_4b3513c0c58a7_201f124f940125e
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello S. M. Sohan:<br />
+<p>Welcome to CampZero.com service providers network of Bangladesh. To ac=
+tivate your account please click on the following link:
+http://localhost:3000/activations/new?id=3DGSQ7PxqmwI7fuhpdnAtl</p>
+<p>However, if you have any problem with this, please copy and paste the =
+URL to your browser.</p>
+<p>If, by any chance, you received this email but don't actually intent t=
+o signup at CampZero.com, please disregard this email.</p>
+
+
+
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b3513c0c58a7_201f124f940125e--
+Redirected to http://localhost:3000/
+Completed in 1080ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:34:25) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.5ms)
+Completed in 32ms (View: 22, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#new (for 127.0.0.1 at 2009-12-25 12:36:18) [GET]
+  Parameters: {"id"=>"3DGSQ7PxqmwI7fuhpdnAtl"}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = '3DGSQ7PxqmwI7fuhpdnAtl') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 15ms (DB: 3) | 302 Found [http://localhost/activations/new?id=3DGSQ7PxqmwI7fuhpdnAtl]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:36:18) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 31ms (View: 21, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#new (for 127.0.0.1 at 2009-12-25 12:36:35) [GET]
+  Parameters: {"id"=>"GSQ7PxqmwI7fuhpdnAtl"}
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'GSQ7PxqmwI7fuhpdnAtl') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering activations/new
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '34') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 34) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Completed in 88ms (View: 9, DB: 3) | 200 OK [http://localhost/activations/new?id=GSQ7PxqmwI7fuhpdnAtl]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#create (for 127.0.0.1 at 2009-12-25 12:36:37) [POST]
+  Parameters: {"commit"=>"Activate", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"GSQ7PxqmwI7fuhpdnAtl"}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'GSQ7PxqmwI7fuhpdnAtl') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:36:37', `perishable_token` = 'YW2BBgYS6QUMiW8qpN0C', `active` = 1 WHERE `id` = 37[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:36:37', `perishable_token` = 'zoP5FtgllPng0c-6xR7x' WHERE `id` = 37[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mService Load (0.3ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.user_id = 37) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:36:37', `perishable_token` = 'XHN4L-p22ke1kIljplKs' WHERE `id` = 37[0m
+  [4;36;1mSQL (13.6ms)[0m   [0;1mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:36:37 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: Completed your CampZero.com signup
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b3514454f7c6_201f1229d8015e5
+
+
+--mimepart_4b3514454f7c6_201f1229d8015e5
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello S. M. Sohan:<br/>
+<p>Thank you for completing the account activation with CampZero.com. If =
+you already posted an ad, it will appear to CampZero visitors now. This a=
+ctivated account also lets you to post new ads, make modifications to the=
+m and rank other service providers in CampZero.com.</p>
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b3514454f7c6_201f1229d8015e5--
+#<TMail::Mail port=#<TMail::StringPort:id=0x12c4f42> bodyport=#<TMail::StringPort:id=0x12c3476>>
+Redirected to http://localhost:3000/
+Completed in 1477ms (DB: 19) | 302 Found [http://localhost/activations?id=GSQ7PxqmwI7fuhpdnAtl]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:36:38) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.2ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '37') LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 35ms (View: 24, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRating Update (0.3ms)[0m   [0mUPDATE `ratings` SET rater_id = NULL WHERE ((rater_id = 37) AND (rater_type = 'User')) [0m
+  [4;36;1mService Load (0.3ms)[0m   [0;1mSELECT * FROM `services` WHERE (`services`.user_id = 37) [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM `users` WHERE `id` = 37[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-12-25 12:37:38) [DELETE]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"37"}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '37') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 37) LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 15ms (DB: 3) | 302 Found [http://localhost/user_sessions/37]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:37:38) [GET]
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.7ms)
+Rendered user_sessions/_new (2.3ms)
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '37') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 37) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 26ms (View: 13, DB: 2) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-25 12:37:52) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"name"=>"sohan", "password_confirmation"=>"sohan", "password"=>"sohan", "email"=>"smsohan@ucalgary.ca"}}
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'ec7b95461bcafe14b2ce8871e87f3bf60bf0d204a0653cbfe8c1a05cb6b1261c16c275dab78a5bb152cee68fc919ee65e5ca5fe965123d73de177256db5a5b6e') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `role`, `password_salt`, `persistence_token`, `email`, `active`) VALUES('sohan', '2009-12-25 19:37:53', 'b764ae408e57dcd4bb13239c4296b34edf240ec6367cf7bdbdee45765144965ebe32de620de3574191bbe8834262b2fe8694dcfeeec2eb6c76e8a97d56efe6bc', '2lSwxH6AqyHQLWDHzcyl', '2009-12-25 19:37:53', 'service_provider', 'CSXRtGR6iDIf5h3u4W_L', 'ec7b95461bcafe14b2ce8871e87f3bf60bf0d204a0653cbfe8c1a05cb6b1261c16c275dab78a5bb152cee68fc919ee65e5ca5fe965123d73de177256db5a5b6e', 'smsohan@ucalgary.ca', NULL)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:37:53', `perishable_token` = '4_TVxIi98cROSa8YE2U0' WHERE `id` = 38[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:37:53 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: Complete the CampZero.com signup process
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b35149131d6_201f12299ca189a
+
+
+--mimepart_4b35149131d6_201f12299ca189a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello sohan:<br />
+<p>Welcome to CampZero.com service providers network of Bangladesh. To ac=
+tivate your account please click on the following link:
+http://localhost:3000/activations/new?id=3D4_TVxIi98cROSa8YE2U0</p>
+<p>However, if you have any problem with this, please copy and paste the =
+URL to your browser.</p>
+<p>If, by any chance, you received this email but don't actually intent t=
+o signup at CampZero.com, please disregard this email.</p>
+
+
+
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b35149131d6_201f12299ca189a--
+Redirected to http://localhost:3000/
+Completed in 1289ms (DB: 5) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:37:54) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '37') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 37) LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 95ms (View: 84, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#new (for 127.0.0.1 at 2009-12-25 12:38:41) [GET]
+  Parameters: {"id"=>"4_TVxIi98cROSa8YE2U0"}
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = '4_TVxIi98cROSa8YE2U0') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering activations/new
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '37') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 37) LIMIT 1[0m
+Rendered layouts/_search_box (0.6ms)
+Completed in 25ms (View: 9, DB: 3) | 200 OK [http://localhost/activations/new?id=4_TVxIi98cROSa8YE2U0]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ActivationsController#create (for 127.0.0.1 at 2009-12-25 12:38:43) [POST]
+  Parameters: {"commit"=>"Activate", "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"4_TVxIi98cROSa8YE2U0"}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = '4_TVxIi98cROSa8YE2U0') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:38:43', `perishable_token` = 'LlhIFjxKxy6yPQRpyLHi', `active` = 1 WHERE `id` = 38[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:38:43', `perishable_token` = '3bxZJd5048zzrojSe-rp' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mService Load (0.3ms)[0m   [0mSELECT * FROM `services` WHERE (`services`.user_id = 38) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:38:43', `perishable_token` = 'V1EsU1ZQAgJ0YMHarBPu' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:38:43 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: Completed your CampZero.com signup
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b3514c38f0d7_201f137b3782112
+
+
+--mimepart_4b3514c38f0d7_201f137b3782112
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello sohan:<br/>
+<p>Thank you for completing the account activation with CampZero.com. If =
+you already posted an ad, it will appear to CampZero visitors now. This a=
+ctivated account also lets you to post new ads, make modifications to the=
+m and rank other service providers in CampZero.com.</p>
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b3514c38f0d7_201f137b3782112--
+#<TMail::Mail port=#<TMail::StringPort:id=0x124c5a6> bodyport=#<TMail::StringPort:id=0x124abd4>>
+Redirected to http://localhost:3000/
+Completed in 1552ms (DB: 6) | 302 Found [http://localhost/activations?id=4_TVxIi98cROSa8YE2U0]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:38:45) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 117ms (View: 26, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-12-25 12:39:30) [DELETE]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"38"}
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 18ms (DB: 3) | 302 Found [http://localhost/user_sessions/38]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:39:30) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (1.1ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.5ms)
+Completed in 29ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:39:32) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.7ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#new (for 127.0.0.1 at 2009-12-25 12:39:42) [GET]
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.7ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 41ms (View: 30, DB: 2) | 200 OK [http://localhost/password_resets/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:39:51) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.8ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:39:51', `perishable_token` = 'c2dFg1zoS-dxWadSTzLu' WHERE `id` = 38[0m
+  [4;35;1mSQL (24.4ms)[0m   [0mCOMMIT[0m
+
+Errno::ENOENT (No such file or directory - /Users/smsohan/CampZero/app/views/notifier/password_reset_instructions.erb):
+  app/models/user.rb:11:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:11:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:43:54) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:43:54', `perishable_token` = 'QAB-KurNPqds-dIFCxYP' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+
+Errno::ENOENT (No such file or directory - /Users/smsohan/CampZero/app/views/notifier/password_reset_instructions.erb):
+  app/models/user.rb:11:in `deliver_password_reset_instructions!'
+  app/controllers/password_resets_controller.rb:11:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+** rate_fu: initialized properly.
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:45:47) [GET]
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.8ms)
+Rendered user_sessions/_new (3.3ms)
+Rendered layouts/_search_box (1.4ms)
+Rendered layouts/_facebook (0.4ms)
+Completed in 111ms (View: 97, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#new (for 127.0.0.1 at 2009-12-25 12:45:49) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/password_resets/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:45:54) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:45:54', `perishable_token` = 'NzMjoPJSoxcEaWPBa9Sd' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:45:54 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: CampZero.com password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b35167270d3a_20bd130f68c12a
+
+
+--mimepart_4b35167270d3a_20bd130f68c12a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Please click the following link to reset your CampZero.com password.<br /=
+>
+http://localhost:3000/password_resets/NzMjoPJSoxcEaWPBa9Sd/edit
+
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b35167270d3a_20bd130f68c12a--
+#<TMail::Mail port=#<TMail::StringPort:id=0x12b17b2> bodyport=#<TMail::StringPort:id=0x12afde0>>
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.8ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 3127ms (View: 10, DB: 4) | 200 OK [http://localhost/password_resets]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#index (for 127.0.0.1 at 2009-12-25 12:48:08) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+
+ActionController::UnknownAction (No action responded to index. Actions: create, edit, new, and update):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:48:14) [GET]
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.0ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#new (for 127.0.0.1 at 2009-12-25 12:48:24) [GET]
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.5ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 20ms (View: 9, DB: 2) | 200 OK [http://localhost/password_resets/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:49:01) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:49:01', `perishable_token` = '-uUzNgPwc9Kac-p7s0x4' WHERE `id` = 38[0m
+  [4;35;1mSQL (217.6ms)[0m   [0mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:49:02 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: CampZero.com password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b35172e238e2_20bd12d71b042b
+
+
+--mimepart_4b35172e238e2_20bd12d71b042b
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello sohan <br />
+Please click the following link to reset your CampZero.com password.<br /=
+>
+http://localhost:3000/password_resets/-uUzNgPwc9Kac-p7s0x4/edit
+<p>However, if you do not intent to reset your password, you may disregar=
+d this email and keep using your old CampZero.com password.</p>
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b35172e238e2_20bd12d71b042b--
+#<TMail::Mail port=#<TMail::StringPort:id=0x127f302> bodyport=#<TMail::StringPort:id=0x127c652>>
+Redirected to http://localhost:3000/
+Completed in 1762ms (DB: 221) | 302 Found [http://localhost/password_resets]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:49:03) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 93ms (View: 81, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#edit (for 127.0.0.1 at 2009-12-25 12:49:41) [GET]
+  Parameters: {"id"=>"-uUzNgPwc9Kac-p7s0x4"}
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = '-uUzNgPwc9Kac-p7s0x4') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering password_resets/edit
+Rendered layouts/_search_box (0.8ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 59ms (View: 47, DB: 3) | 200 OK [http://localhost/password_resets/-uUzNgPwc9Kac-p7s0x4/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:49:45) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"-uUzNgPwc9Kac-p7s0x4", "user"=>{"password_confirmation"=>"", "password"=>""}}
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = '-uUzNgPwc9Kac-p7s0x4') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:49:45', `perishable_token` = 'tB8xsuwLZldNoCs0fn50' WHERE `id` = 38[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 19ms (DB: 4) | 302 Found [http://localhost/password_resets/-uUzNgPwc9Kac-p7s0x4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:49:45) [GET]
+  [4;36;1mServiceCategory Load (0.5ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.8ms)
+Completed in 29ms (View: 19, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:49:50) [GET]
+  [4;35;1mUser Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.1ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 83ms (View: 11, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:49:59) [GET]
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.1ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:50:01) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 29ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:50:02) [GET]
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.9ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-25 12:50:08) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"", "email"=>"me@smsohan.com"}, "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U="}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/users/new
+Completed in 92ms (DB: 2) | 302 Found [http://localhost/user_sessions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:50:09) [GET]
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.1ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.5ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-25 12:50:38) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"sohan", "email"=>"me@smsohan.com"}, "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U="}
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(`users`.email) = 'me@smsohan.com') LIMIT 1[0m
+Redirected to http://localhost:3000/users/new
+Completed in 143ms (DB: 3) | 302 Found [http://localhost/user_sessions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:50:38) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.8ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.7ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 26ms (View: 12, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-25 12:50:51) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"", "email"=>"smsohan@ucalgary.ca"}, "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U="}
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/users/new
+Completed in 14ms (DB: 2) | 302 Found [http://localhost/user_sessions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:50:51) [GET]
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.9ms)
+Rendered user_sessions/_new (2.4ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-25 12:51:03) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"password"=>"sohan", "email"=>"smsohan@ucalgary.ca"}, "authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U="}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.email) = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:51:03', `perishable_token` = 'g23KJEsjx1yIeGV-1bka' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 83ms (DB: 4) | 302 Found [http://localhost/user_sessions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:51:03) [GET]
+  [4;35;1mServiceCategory Load (0.9ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 35ms (View: 25, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-12-25 12:51:06) [DELETE]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"38"}
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 25ms (DB: 4) | 302 Found [http://localhost/user_sessions/38]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:51:06) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.8ms)
+Completed in 29ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:51:36) [GET]
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.2ms)
+Rendered user_sessions/_new (2.6ms)
+Rendered layouts/_search_box (1.1ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 29ms (View: 13, DB: 3) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#new (for 127.0.0.1 at 2009-12-25 12:51:37) [GET]
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 20ms (View: 8, DB: 3) | 200 OK [http://localhost/password_resets/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:51:44) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:51:44', `perishable_token` = 'gPoWyZCJ4YCoiYQjaVml' WHERE `id` = 38[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:51:44 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: CampZero.com password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b3517d086f4_20bd12dbd6473c
+
+
+--mimepart_4b3517d086f4_20bd12dbd6473c
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello sohan <br />
+Please click the following link to reset your CampZero.com password.<br /=
+>
+http://localhost:3000/password_resets/gPoWyZCJ4YCoiYQjaVml/edit
+<p>However, if you do not intent to reset your password, you may disregar=
+d this email and keep using your old CampZero.com password.</p>
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b3517d086f4_20bd12dbd6473c--
+#<TMail::Mail port=#<TMail::StringPort:id=0x124b7f0> bodyport=#<TMail::StringPort:id=0x1249842>>
+Redirected to http://localhost:3000/
+Completed in 1543ms (DB: 4) | 302 Found [http://localhost/password_resets]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:51:45) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 29ms (View: 19, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#edit (for 127.0.0.1 at 2009-12-25 12:52:36) [GET]
+  Parameters: {"id"=>"gPoWyZCJ4YCoiYQjaVml"}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'gPoWyZCJ4YCoiYQjaVml') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering password_resets/edit
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 23ms (View: 10, DB: 3) | 200 OK [http://localhost/password_resets/gPoWyZCJ4YCoiYQjaVml/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:52:39) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"gPoWyZCJ4YCoiYQjaVml", "user"=>{"password_confirmation"=>"", "password"=>""}}
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'gPoWyZCJ4YCoiYQjaVml') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:52:39', `perishable_token` = 'ChKLvFntpyN1tU5Bv60d' WHERE `id` = 38[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 18ms (DB: 3) | 302 Found [http://localhost/password_resets/gPoWyZCJ4YCoiYQjaVml]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:52:39) [GET]
+  [4;36;1mServiceCategory Load (0.5ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.2ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 29ms (View: 19, DB: 5) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:53:18) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"gPoWyZCJ4YCoiYQjaVml", "user"=>{"password_confirmation"=>"", "password"=>""}}
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'gPoWyZCJ4YCoiYQjaVml') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:load_user_by_perishable_token] rendered_or_redirected.
+Completed in 11ms (DB: 3) | 302 Found [http://localhost/password_resets/gPoWyZCJ4YCoiYQjaVml]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:53:18) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (1.8ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 106ms (View: 21, DB: 8) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-25 12:53:57) [GET]
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.9ms)
+Rendered user_sessions/_new (2.3ms)
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#new (for 127.0.0.1 at 2009-12-25 12:53:58) [GET]
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering password_resets/new
+Rendered layouts/_search_box (0.7ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 25ms (View: 11, DB: 3) | 200 OK [http://localhost/password_resets/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#create (for 127.0.0.1 at 2009-12-25 12:54:03) [POST]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "user"=>{"email"=>"smsohan@ucalgary.ca"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'smsohan@ucalgary.ca') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-12-25 19:54:03', `perishable_token` = 'du_eKwtue32QwyBbqJYC' WHERE `id` = 38[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Sent mail to smsohan@ucalgary.ca
+
+Date: Fri, 25 Dec 2009 12:54:03 -0700
+From: CampZero.com
+To: smsohan@ucalgary.ca
+Subject: CampZero.com password reset instructions
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4b35185b44f88_20bd1246c501031
+
+
+--mimepart_4b35185b44f88_20bd1246c501031
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Hello sohan <br />
+Please click the following link to reset your CampZero.com password.<br /=
+>
+http://localhost:3000/password_resets/du_eKwtue32QwyBbqJYC/edit
+<p>However, if you do not intent to reset your password, you may disregar=
+d this email and keep using your old CampZero.com password.</p>
+<br />
+--<br />
+With regards from<br />
+<strong>CampZero.com</strong><br />
+Service.Delivered!<br />
+Find the best service providers in Bangladesh.=
+
+--mimepart_4b35185b44f88_20bd1246c501031--
+#<TMail::Mail port=#<TMail::StringPort:id=0x120539a> bodyport=#<TMail::StringPort:id=0x12038c4>>
+Redirected to http://localhost:3000/
+Completed in 1253ms (DB: 4) | 302 Found [http://localhost/password_resets]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:54:04) [GET]
+  [4;35;1mServiceCategory Load (0.4ms)[0m   [0mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;36;1mServiceCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `service_categories`[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.7ms)
+Completed in 31ms (View: 21, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#edit (for 127.0.0.1 at 2009-12-25 12:54:37) [GET]
+  Parameters: {"id"=>"du_eKwtue32QwyBbqJYC"}
+  [4;36;1mUser Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'du_eKwtue32QwyBbqJYC') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering password_resets/edit
+Rendered layouts/_search_box (0.5ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 21ms (View: 9, DB: 2) | 200 OK [http://localhost/password_resets/du_eKwtue32QwyBbqJYC/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:54:40) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"du_eKwtue32QwyBbqJYC", "user"=>{"password_confirmation"=>"", "password"=>""}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'du_eKwtue32QwyBbqJYC') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering password_resets/edit
+Rendered layouts/_search_box (0.6ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 22ms (View: 9, DB: 3) | 200 OK [http://localhost/password_resets/du_eKwtue32QwyBbqJYC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:54:58) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"du_eKwtue32QwyBbqJYC", "user"=>{"password_confirmation"=>"", "password"=>""}}
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'du_eKwtue32QwyBbqJYC') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering password_resets/edit
+Rendered layouts/_search_box (0.5ms)
+Rendered layouts/_facebook (0.1ms)
+Completed in 22ms (View: 9, DB: 3) | 200 OK [http://localhost/password_resets/du_eKwtue32QwyBbqJYC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PasswordResetsController#update (for 127.0.0.1 at 2009-12-25 12:55:03) [PUT]
+  Parameters: {"authenticity_token"=>"7KRXcySOIGxwfIKOwEClfMGTvHF4feQwOR9NhNAN93U=", "id"=>"du_eKwtue32QwyBbqJYC", "user"=>{"password_confirmation"=>"sohan", "password"=>"sohan"}}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`perishable_token` = 'du_eKwtue32QwyBbqJYC') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (20.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'b249d773101a99b3c73256271485a3ea05e14a6a00328d7b86a7f38090e82ce1e5c9d6bee23a6849be5314a4654407ee229f469d48aca2d00940a47f04ba2141' AND `users`.id <> 38) LIMIT 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-12-25 19:55:03', `crypted_password` = 'c64149586576c4a4c87e67056e9f0bbec34d03e5c1cfd45be923e35c1db966baefc83d2f38b826e813f01e8cdaefd9b3c96a97dcb8bfa3256e3f42abb62a99dc', `perishable_token` = '04TK3Lie7WW7WS1JPYvi', `password_salt` = 'kUJR9maX3eXO4yGo3ZDY', `persistence_token` = 'b249d773101a99b3c73256271485a3ea05e14a6a00328d7b86a7f38090e82ce1e5c9d6bee23a6849be5314a4654407ee229f469d48aca2d00940a47f04ba2141' WHERE `id` = 38[0m
+  [4;35;1mSQL (11.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 58ms (DB: 35) | 302 Found [http://localhost/password_resets/du_eKwtue32QwyBbqJYC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-12-25 12:55:03) [GET]
+  [4;36;1mServiceCategory Load (0.4ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (parent_id IS NULL) ORDER BY name[0m
+Rendering template within layouts/application
+Rendering welcome/index
+  [4;35;1mServiceCategory Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `service_categories`[0m
+  [4;36;1mServiceCategory Load (0.3ms)[0m   [0;1mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 1) ORDER BY name[0m
+  [4;35;1mServiceCategory Load (0.3ms)[0m   [0mSELECT * FROM `service_categories` WHERE (`service_categories`.parent_id = 4) ORDER BY name[0m
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '38') LIMIT 1[0m
+Rendered layouts/_facebook (0.1ms)
+Rendered layouts/_search_box (0.6ms)
+Completed in 36ms (View: 26, DB: 4) | 200 OK [http://localhost/]
