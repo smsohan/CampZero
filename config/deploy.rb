@@ -26,6 +26,7 @@ task :staging do
       run "mkdir -p #{shared_path}/assets; ln -s #{shared_path}/assets #{release_path}/web/attached_files"
       run "ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml"
       run "ln -s #{shared_path}/config/#{rails_env}.sphinx.conf #{release_path}/config/#{rails_env}.sphinx.conf"
+      run "ln -s #{shared_path}/sitemap/sitemap.xml #{release_path}/web/sitemap.xml"
       thinking_sphinx.rebuild
     end
     

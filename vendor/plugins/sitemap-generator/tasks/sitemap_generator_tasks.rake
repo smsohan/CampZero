@@ -7,7 +7,11 @@ namespace :sitemap do
     require(File.join(RAILS_ROOT, 'config', 'environment'))
 
     # Finds models and generates the sitemap
-    SitemapGenerator::Generator.run 
+    if defined?(SITEMAP_FILE_PATH) 
+      SitemapGenerator::Generator.new(SITEMAP_FILE_PATH).find_models_and_generate
+    else
+      SitemapGenerator::Generator.run 
+    end  
     
     # You can also generate a sitemap 'manually' like this:
 =begin
