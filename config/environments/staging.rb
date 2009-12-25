@@ -10,7 +10,7 @@ config.action_controller.perform_caching             = true
 config.action_view.cache_template_loading            = true
 
 PUBLIC_FOLDER_NAME = 'web'
-SITEMAP_FILE_PATH = '~/app/shared/sitemap/sitemap.xml'
+SITEMAP_FILE_PATH = '/home/webmaster/app/shared/sitemap/sitemap.xml'
 
 # See everything in the log (default is :info)
 # config.log_level = :debug
