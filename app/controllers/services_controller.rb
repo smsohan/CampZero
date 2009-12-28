@@ -1,6 +1,7 @@
 class ServicesController < ApplicationController
   before_filter :login_required, :only => [:edit, :update, :destroy]
-
+  add_crumb 'Home', '/'
+  
   def index
     if params[:query].present? && params[:service_category_id].blank?
       @services = Service.search_by_text params[:query], params[:page]
@@ -17,7 +18,7 @@ class ServicesController < ApplicationController
       @services = Service.all.paginate :page => params[:page], :per_page => Service::PER_PAGE
       @title = "All services"
     end
-    
+    add_crumb @title
     @query_words = params[:query] ? params[:query].split(/\W/) : ''
     
   end
@@ -26,6 +27,8 @@ class ServicesController < ApplicationController
     @service = Service.find(params[:id])
     @service.increment! :visit_count
     @comment = @service.comments.new()
+    add_crumb "#{@service.service_category.name} Service Providers", service_category_path(@service.service_category)
+    add_crumb @service.title
   end
   
   def new
