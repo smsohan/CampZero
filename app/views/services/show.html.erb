@@ -37,7 +37,7 @@ Total <%= @service.visit_count > 1 ? "#{@service.visit_count} visits" : "#{@serv
     <%= link_to "Destroy", @service, :confirm => 'Are you sure?', :method => :delete %>
   <%end%>
 </p>
-<%= render :partial => "layouts/facebook"	%>
+
 <h2>Customer feedbacks</h2>
 <%= render :partial => 'comments/show', :collection => @service.comments, :as => :comment %>
 

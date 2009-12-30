@@ -7,7 +7,7 @@
 <%end%>
 <div id="categories">
   <h1>
-    Shop The Best Services in Bangladesh
+    Shop The Most Trusted Services in Bangladesh
   </h1>
 
   <% if @service_categories.present? %>
@@ -37,14 +37,14 @@
   <div id="provider">
     <h1>Why Should You List Your Business Here?</h1>
     <ul>
-      <li>Attract new customers.</li>
-      <li>Get customer feedback.</li>
-      <li>It's FREE!!</li>
+      <li>Let your customers speak for you.</li>
+      <li>Get real feedback from 'em.</li>
+      <li>
+	    <% unless current_user %>
+    	Interested? <%= link_to 'Start Here', new_user_path %>. Its' FREE!!!
+    	<% end %>
+      </li>
     </ul>
-    <% unless current_user %>
-    Interested? <%= link_to 'Start Here', new_user_path %>
-    <% end %>
-	<br />
 	<%= render 'layouts/facebook'%>
   </div>
 </div>

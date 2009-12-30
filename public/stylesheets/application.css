@@ -26,7 +26,7 @@ a {
     padding-top: 1em;
     padding-bottom: 1em; 
     margin: 0;
-    border-bottom: 3px solid #222222;
+    border-bottom: 3px solid #4D4D4D;
 }
 
 #header #menu
@@ -182,7 +182,7 @@ a
     width: 100%;
     background-color: #FFFFFF;
     color: #222222;
-    padding: 1em;
+    padding: 0em 1em;
     float: left;
     text-align: left;
     font-family: Georgia, Helvetica, Verdana, Arial;
@@ -252,7 +252,7 @@ a
     color: #444444;
     font-family: Georgia, Arial, Verdana;
     font-size: 0.9em;
-    border-top: 1px solid #222222;
+    border-top: 1px solid #CFCFCF;
     text-align: center;
     padding: 0.2em;
 }
@@ -261,6 +261,7 @@ a
 {
     padding: 0;
     margin: 0;
+	font-size: 0.8em;
 }
 
 #menu .menu-item li
@@ -284,4 +285,9 @@ a strong.highlight
 {
 	font-size: 1.1em;
 	color: blue;
+}
+
+#provider ul
+{
+	color: #4D4D4D;
 }

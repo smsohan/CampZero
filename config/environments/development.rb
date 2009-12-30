@@ -21,6 +21,7 @@ Paperclip.options[:command_path] = '/opt/local/bin'
 
 PUBLIC_FOLDER_NAME = 'public'
 
+
 ActionMailer::Base.smtp_settings= { :address => 'smtp.gmail.com',
                                     :port => '587',
                                     :authentication => :plain,

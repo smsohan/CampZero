@@ -5,6 +5,6 @@ class ServiceCategory < ActiveRecord::Base
   sitemap
 
   def to_param
-    "#{self.id}-#{self.name} service providers in Bangladesh".gsub /[^[:alnum:]]/, '-'
+    "#{self.id}-#{self.name} service Bangladesh".gsub /[^[:alnum:]]/, '-'
   end
 end
